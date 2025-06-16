@@ -22,3 +22,4 @@ Tip: If you paste a lot of links, give the action a custom [key binding](https:/
 ## Feedback and issues
 
 Have an idea for the extension? [Feel free to share! 🎉](https://github.com/Skn0tt/markdown-link-expander/issues)
+

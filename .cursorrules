@@ -30,7 +30,8 @@
 - 笔记内容需要符合学术规范，使用中英文对照的学术笔记风格
 - 笔记需要根据章节分文件夹，按内容分文件，并且要在合适的时候添加[[wikilinks]]或者卡片嵌入引用其他相关笔记。
 - 整理笔记时不要删除原始笔记及其中的内容，仅在原始笔记中添加wikilink指明相关笔记即可，同样的，整理后的笔记也需要link原始 daily note。
-- 章节名称请使用1./2./3./4.开头，不要有chapter单词，必须以#.开头，注意文中标点符号和格式
+- 章节名称请使用1./2./3./4.xxx，不要有chapter单词。
+- 对于任何文件名/文件夹名称，请使用英文。
 ## 特殊注意事项
 - 这个工作区使用Foam进行知识图谱管理
 - 重视笔记之间的连接和关联
@@ -59,11 +60,11 @@
 ### 2. 创建card/inline内嵌引用
 
 **格式 / Format：**  
-- `content-card![[页面名称]]`  
-- `content-card![[Page Name]]`
+- `card![[页面名称]]`  
+- `card![[Page Name]]`
 
 **示例 / Example：**  
-- `content-card![[Foundation_of_Economics#F4. 机会成本 / Opportunity Cost]]`  
+- `card![[Foundation_of_Economics#F4. 机会成本 / Opportunity Cost]]`  
   以卡片形式内嵌显示目标页面或小节内容  
   Embeds the content of the target page or section as a card
 

@@ -7,23 +7,23 @@ Maximize or minimize a quantity under constraints using derivatives.
 
 ## 2. 步骤 / Procedure
 
-1) 建模：由条件写出目标函数 $ f(x) $。2) 域：确定可行区间。3) 临界点：解 $ f'(x)=0 $ 或 $ f' $ 不存在处。4) 判别：一阶或二阶导数检验。5) 比较：包含端点。
-1) Model: express target $ f(x) $ from conditions. 2) Domain: feasible interval. 3) Critical points: solve $ f'(x)=0 $ or where $ f' $ undefined. 4) Test: first/second derivative tests. 5) Compare endpoints.
+1) 建模：由条件写出目标函数 $f(x)$。2) 域：确定可行区间。3) 临界点：解 $f'(x)=0$ 或 $f'$ 不存在处。4) 判别：一阶或二阶导数检验。5) 比较：包含端点。
+1) Model: express target $f(x)$ from conditions. 2) Domain: feasible interval. 3) Critical points: solve $f'(x)=0$ or where $f'$ undefined. 4) Test: first/second derivative tests. 5) Compare endpoints.
 
 ## 3. 一阶与二阶判别 / First & Second Derivative Tests
 
-一阶：$ f' $ 号变判断极值。二阶：若 $ f'(c)=0 $ 且 $ f''(c)>0 $ 则极小；若 $ f''(c)<0 $ 则极大。
-First: sign change of $ f' $ indicates local extrema. Second: if $ f'(c)=0 $ and $ f''(c)>0 $ then local min; if $ f''(c)<0 $ then local max.
+一阶：$f'$ 号变判断极值。二阶：若 $f'(c)=0$ 且 $f''(c)>0$ 则极小；若 $f''(c)<0$ 则极大。
+First: sign change of $f'$ indicates local extrema. Second: if $f'(c)=0$ and $f''(c)>0$ then local min; if $f''(c)<0$ then local max.
 
 ## 4. 凹凸与拐点 / Concavity and Inflection
 
-$ f''>0 $ 凹向上；$ f''<0 $ 凹向下。拐点在凹凸性改变处。
-Concave up if $ f''>0 $; concave down if $ f''<0 $. Inflection where concavity changes.
+$f''>0$ 凹向上；$f''<0$ 凹向下。拐点在凹凸性改变处。
+Concave up if $f''>0$; concave down if $f''<0$. Inflection where concavity changes.
 
 ## 5. 例题骨架 / Example Skeleton
 
-体积 $ V $ 固定的无盖盒子最省材料：用 $ xyz=V $ 将表面积化为单变量，求导找临界点并比较。
-Minimize material for an open-top box with fixed $ V $: use $ xyz=V $, reduce to one variable, differentiate, find critical points, compare.
+体积 $V$ 固定的无盖盒子最省材料：用 $xyz=V$ 将表面积化为单变量，求导找临界点并比较。
+Minimize material for an open-top box with fixed $V$: use $xyz=V$, reduce to one variable, differentiate, find critical points, compare.
 
 ## 6. 相关链接 / Links
 

@@ -1,38 +1,38 @@
 # 1. 基本求导法则 / Basic Differentiation Rules
 
-EN: For \( c \) constant and functions \( f,g \):
-ZH: 对常数 \( c \) 与函数 \( f,g \)：
+EN: For \(c\) constant and functions \(f,g\):
+ZH: 对常数 \(c\) 与函数 \(f,g\)：
 
 - 常数：$(c)' = 0$；常数乘法则：$(c\,f)' = c\,f'$。
   Constant: $(c)' = 0$; Constant multiple: $(c\,f)' = c\,f'$.
 
-- 和差法则：$ (f\pm g)' = f'\pm g' $。
-  Sum and difference: $ (f\pm g)' = f'\pm g' $.
+- 和差法则：$(f\pm g)' = f'\pm g'$。
+  Sum and difference: $(f\pm g)' = f'\pm g'$.
 
-- 幂函数法则：$ (x^n)' = n\,x^{n-1} $（定义域内成立）。
-  Power rule: $ (x^n)' = n\,x^{n-1} $ (where defined).
+- 幂函数法则：$(x^n)' = n\,x^{n-1}$（定义域内成立）。
+  Power rule: $(x^n)' = n\,x^{n-1}$ (where defined).
 
 ## 2. 乘法与商法则 / Product and Quotient
 
-- 乘法法则：$ (fg)' = f'g + fg' $。
-  Product rule: $ (fg)' = f'g + fg' $.
+- 乘法法则：$(fg)' = f'g + fg'$。
+  Product rule: $(fg)' = f'g + fg'$.
 
-- 商法则：$\left(\dfrac{f}{g}\right)' = \dfrac{f'g - f g'}{g^2}$（$ g\neq 0 $）。
-  Quotient rule: $ \left(\dfrac{f}{g}\right)' = \dfrac{f'g - f g'}{g^2} $ where $ g\neq 0 $.
+- 商法则：$\left(\dfrac{f}{g}\right)' = \dfrac{f'g - f g'}{g^2}$（$g\neq 0$）。
+  Quotient rule: $\left(\dfrac{f}{g}\right)' = \dfrac{f'g - f g'}{g^2}$ where $g\neq 0$.
 
 ## 3. 常见导数 / Common Derivatives
 
-- 指数：$ (e^x)' = e^x $，$ (a^x)' = a^x\ln a $。
-  Exponential: $ (e^x)' = e^x $, $ (a^x)' = a^x\ln a $.
+- 指数：$(e^x)' = e^x$，$(a^x)' = a^x\ln a$。
+  Exponential: $(e^x)' = e^x$, $(a^x)' = a^x\ln a$.
 
-- 对数：$ (\ln x)' = \dfrac{1}{x} $，$ (\log_a x)' = \dfrac{1}{x\ln a} $。
-  Logarithm: $ (\ln x)' = \dfrac{1}{x} $, $ (\log_a x)' = \dfrac{1}{x\ln a} $.
+- 对数：$(\ln x)' = \dfrac{1}{x}$，$(\log_a x)' = \dfrac{1}{x\ln a}$。
+  Logarithm: $(\ln x)' = \dfrac{1}{x}$, $(\log_a x)' = \dfrac{1}{x\ln a}$.
 
-- 三角：$ (\sin x)' = \cos x $，$ (\cos x)' = -\sin x $，$ (\tan x)' = \sec^2 x $。
-  Trigonometric: $ (\sin x)' = \cos x $, $ (\cos x)' = -\sin x $, $ (\tan x)' = \sec^2 x $.
+- 三角：$(\sin x)' = \cos x$，$(\cos x)' = -\sin x$，$(\tan x)' = \sec^2 x$。
+  Trigonometric: $(\sin x)' = \cos x$, $(\cos x)' = -\sin x$, $(\tan x)' = \sec^2 x$.
 
-- 反三角：$ (\arcsin x)' = \dfrac{1}{\sqrt{1-x^2}} $，$ (\arctan x)' = \dfrac{1}{1+x^2} $。
-  Inverse trig: $ (\arcsin x)' = \dfrac{1}{\sqrt{1-x^2}} $, $ (\arctan x)' = \dfrac{1}{1+x^2} $.
+- 反三角：$(\arcsin x)' = \dfrac{1}{\sqrt{1-x^2}}$，$(\arctan x)' = \dfrac{1}{1+x^2}$。
+  Inverse trig: $(\arcsin x)' = \dfrac{1}{\sqrt{1-x^2}}$, $(\arctan x)' = \dfrac{1}{1+x^2}$.
 
 ## 4. 相关链接 / Links
 

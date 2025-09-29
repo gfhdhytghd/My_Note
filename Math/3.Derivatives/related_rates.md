@@ -2,18 +2,18 @@
 
 ## 1. 核心思想 / Core Idea
 
-多个关于时间的量由方程联系；对时间 $ t $ 求导以关联其变化率。
-Quantities depending on time are related by an equation; differentiate w.r.t. time $ t $ to relate their rates.
+多个关于时间的量由方程联系；对时间 $t$ 求导以关联其变化率。
+Quantities depending on time are related by an equation; differentiate w.r.t. time $t$ to relate their rates.
 
 ## 2. 通用步骤 / Setup Template
 
-1) 阅读：识别已知与所求变化率。2) 作图：标注变量。3) 建立关系：写出变量方程。4) 对 $ t $ 隐式求导。5) 代入瞬时值。6) 求解。
-1) Read: identify given and target rates. 2) Draw: diagram with variables. 3) Relate: write an equation. 4) Differentiate w.r.t. $ t $. 5) Substitute instant values. 6) Solve.
+1) 阅读：识别已知与所求变化率。2) 作图：标注变量。3) 建立关系：写出变量方程。4) 对 $t$ 隐式求导。5) 代入瞬时值。6) 求解。
+1) Read: identify given and target rates. 2) Draw: diagram with variables. 3) Relate: write an equation. 4) Differentiate w.r.t. $t$. 5) Substitute instant values. 6) Solve.
 
 ## 3. 例题范式 / Example Template
 
-直圆锥半径 $ r $、高 $ h $。体积：$ V=\tfrac{1}{3}\pi r^2 h $。求导：$ \dfrac{dV}{dt}=\tfrac{1}{3}\pi (2r\,r' h + r^2 h') $。
-Right cone with radius $ r $ and height $ h $. Volume: $ V=\tfrac{1}{3}\pi r^2 h $. Differentiate: $ \dfrac{dV}{dt}=\tfrac{1}{3}\pi (2r\,r' h + r^2 h') $.
+直圆锥半径 $r$、高 $h$。体积：$V=\tfrac{1}{3}\pi r^2 h$。求导：$\dfrac{dV}{dt}=\tfrac{1}{3}\pi (2r\,r' h + r^2 h')$。
+Right cone with radius $r$ and height $h$. Volume: $V=\tfrac{1}{3}\pi r^2 h$. Differentiate: $\dfrac{dV}{dt}=\tfrac{1}{3}\pi (2r\,r' h + r^2 h')$.
 
 ## 4. 常见误区 / Common Pitfalls
 

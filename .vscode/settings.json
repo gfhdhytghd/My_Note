@@ -20,5 +20,6 @@
   "files.insertFinalNewline": true,
   "markdown.styles": [".vscode/custom-tag-style.css"],
   "markdown-preview-enhanced.enableWikiLinkSyntax": false,
-  "markdown-preview-enhanced.wikiLinkFileExtension": ".md"
+  "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+  "chatgpt.openOnStartup": true
 }

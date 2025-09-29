@@ -2,21 +2,21 @@
 
 ## 1. 切线近似 / Tangent Approximation
 
-在 $ x=a $ 附近，$ f(x) $ 可由切线近似：$ L(x) = f(a) + f'(a)(x-a) $。
-Near $ x=a $, $ f(x) $ is approximated by its tangent line: $ L(x) = f(a) + f'(a)(x-a) $.
+在 $x=a$ 附近，$f(x)$ 可由切线近似：$L(x) = f(a) + f'(a)(x-a)$。
+Near $x=a$, $f(x)$ is approximated by its tangent line: $L(x) = f(a) + f'(a)(x-a)$.
 
-若 $ f $ 在 $ a $ 附近光滑，误差较小；更高阶项来源于泰勒展开。
-If $ f $ is smooth near $ a $, the error is small; higher-order terms come from Taylor expansion.
+若 $f$ 在 $a$ 附近光滑，误差较小；更高阶项来源于泰勒展开。
+If $f$ is smooth near $a$, the error is small; higher-order terms come from Taylor expansion.
 
 ## 2. 微分 / Differentials
 
-微分记号：$ dy = f'(x)\,dx $。当 $ x \to x+\Delta x $ 时，$ \Delta y \approx dy = f'(a)\,\Delta x $。
-Differential notation: $ dy = f'(x)\,dx $. For $ x \to x+\Delta x $, $ \Delta y \approx dy = f'(a)\,\Delta x $.
+微分记号：$dy = f'(x)\,dx$。当 $x \to x+\Delta x$ 时，$\Delta y \approx dy = f'(a)\,\Delta x$。
+Differential notation: $dy = f'(x)\,dx$. For $x \to x+\Delta x$, $\Delta y \approx dy = f'(a)\,\Delta x$.
 
 ## 3. 例子 / Example
 
-近似 $ \sqrt{4.1} $：设 $ f(x)=\sqrt{x} $, $ a=4 $. 则 $ f'(x)=\tfrac{1}{2\sqrt{x}} \Rightarrow f'(4)=\tfrac{1}{4} $。故 $ L(4.1)=2+\tfrac{1}{4}(0.1)=2.025 $。
-Approximate $ \sqrt{4.1} $: take $ f(x)=\sqrt{x} $, $ a=4 $. Then $ f'(x)=\tfrac{1}{2\sqrt{x}} \Rightarrow f'(4)=\tfrac{1}{4} $. So $ L(4.1)=2+\tfrac{1}{4}(0.1)=2.025 $.
+近似 $\sqrt{4.1}$：设 $f(x)=\sqrt{x}$, $a=4$. 则 $f'(x)=\tfrac{1}{2\sqrt{x}} \Rightarrow f'(4)=\tfrac{1}{4}$。故 $L(4.1)=2+\tfrac{1}{4}(0.1)=2.025$。
+Approximate $\sqrt{4.1}$: take $f(x)=\sqrt{x}$, $a=4$. Then $f'(x)=\tfrac{1}{2\sqrt{x}} \Rightarrow f'(4)=\tfrac{1}{4}$. So $L(4.1)=2+\tfrac{1}{4}(0.1)=2.025$.
 
 ## 4. 相关链接 / Links
 

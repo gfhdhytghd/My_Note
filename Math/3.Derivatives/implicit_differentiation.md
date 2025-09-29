@@ -2,24 +2,24 @@
 
 ## 1. 基本思想 / Idea
 
-若 $ y $ 由 $ F(x,y)=0 $ 隐式给出，对两边关于 $ x $ 求导并解出 $ \dfrac{dy}{dx} $。
-When $ y $ is defined implicitly by $ F(x,y)=0 $, differentiate both sides w.r.t. $ x $ and solve for $ \dfrac{dy}{dx} $.
+若 $y$ 由 $F(x,y)=0$ 隐式给出，对两边关于 $x$ 求导并解出 $\dfrac{dy}{dx}$。
+When $y$ is defined implicitly by $F(x,y)=0$, differentiate both sides w.r.t. $x$ and solve for $\dfrac{dy}{dx}$.
 
-由链式法则，$ \dfrac{d}{dx}[y(x)] = \dfrac{dy}{dx} $。
-By the chain rule, $ \dfrac{d}{dx}[y(x)] = \dfrac{dy}{dx} $.
+由链式法则，$\dfrac{d}{dx}[y(x)] = \dfrac{dy}{dx}$。
+By the chain rule, $\dfrac{d}{dx}[y(x)] = \dfrac{dy}{dx}$.
 
 ## 2. 例子 / Example
 
-对 $ x^2 + y^2 = 1 $ 求导：$ 2x + 2y \, \dfrac{dy}{dx} = 0 \Rightarrow \dfrac{dy}{dx} = -\dfrac{x}{y} $。
-For $ x^2 + y^2 = 1 $, differentiate: $ 2x + 2y \, \dfrac{dy}{dx} = 0 \Rightarrow \dfrac{dy}{dx} = -\dfrac{x}{y} $.
+对 $x^2 + y^2 = 1$ 求导：$2x + 2y \, \dfrac{dy}{dx} = 0 \Rightarrow \dfrac{dy}{dx} = -\dfrac{x}{y}$。
+For $x^2 + y^2 = 1$, differentiate: $2x + 2y \, \dfrac{dy}{dx} = 0 \Rightarrow \dfrac{dy}{dx} = -\dfrac{x}{y}$.
 
 ## 3. 对数求导 / Logarithmic Differentiation
 
-对积与幂：两边取 $ \ln $ 化简，再求导。
-For products and powers: take $ \ln $ on both sides to simplify, then differentiate.
+对积与幂：两边取 $\ln$ 化简，再求导。
+For products and powers: take $\ln$ on both sides to simplify, then differentiate.
 
-例：$ y = x^{x} $。$ \ln y = x\ln x \Rightarrow \dfrac{y'}{y} = \ln x + 1 \Rightarrow y' = x^{x}(\ln x + 1) $。
-Example: $ y = x^{x} $. $ \ln y = x\ln x \Rightarrow \dfrac{y'}{y} = \ln x + 1 \Rightarrow y' = x^{x}(\ln x + 1) $.
+例：$y = x^{x}$。$\ln y = x\ln x \Rightarrow \dfrac{y'}{y} = \ln x + 1 \Rightarrow y' = x^{x}(\ln x + 1)$。
+Example: $y = x^{x}$. $\ln y = x\ln x \Rightarrow \dfrac{y'}{y} = \ln x + 1 \Rightarrow y' = x^{x}(\ln x + 1)$.
 
 ## 4. 相关链接 / Links
 

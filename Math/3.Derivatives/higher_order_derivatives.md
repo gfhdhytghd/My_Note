@@ -2,22 +2,22 @@
 
 ## 1. 定义与记号 / Definitions and Notations
 
-二阶导数：$ f''(x) = (f'(x))' $；$ n $ 阶导数：$ f^{(n)}(x) $。
-Second derivative: $ f''(x) = (f'(x))' $; $ n $-th derivative: $ f^{(n)}(x) $.
+二阶导数：$f''(x) = (f'(x))'$；$n$ 阶导数：$f^{(n)}(x)$。
+Second derivative: $f''(x) = (f'(x))'$; $n$-th derivative: $f^{(n)}(x)$.
 
-常用记号 / Notations：$ \dfrac{d^n y}{dx^n} $, $ D^n f $。
-Typical notations: $ \dfrac{d^n y}{dx^n} $, $ D^n f $.
+常用记号 / Notations：$\dfrac{d^n y}{dx^n}$, $D^n f$。
+Typical notations: $\dfrac{d^n y}{dx^n}$, $D^n f$.
 
 ## 2. 常见模式 / Patterns
 
 - 多项式：每次求导降低一次次数。
   Polynomial: each differentiation lowers degree by one.
 
-- 指数：$ (e^x)^{(n)} = e^x $；$ (a^x)^{(n)} = (\ln a)^n a^x $。
-  Exponential: $ (e^x)^{(n)} = e^x $; $ (a^x)^{(n)} = (\ln a)^n a^x $.
+- 指数：$(e^x)^{(n)} = e^x$；$(a^x)^{(n)} = (\ln a)^n a^x$。
+  Exponential: $(e^x)^{(n)} = e^x$; $(a^x)^{(n)} = (\ln a)^n a^x$.
 
-- 三角：$ (\sin x)^{(n)} $ 与 $ (\cos x)^{(n)} $ 每 4 次循环一次。
-  Trig: $ (\sin x)^{(n)} $ and $ (\cos x)^{(n)} $ cycle with period 4.
+- 三角：$(\sin x)^{(n)}$ 与 $(\cos x)^{(n)}$ 每 4 次循环一次。
+  Trig: $(\sin x)^{(n)}$ and $(\cos x)^{(n)}$ cycle with period 4.
 
 ## 3. 乘积的高阶导（莱布尼茨） / Product Generalization (Leibniz)
 

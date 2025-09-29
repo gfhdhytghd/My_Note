@@ -18,21 +18,21 @@ $$
 f'(a) = \lim_{x\to a} \frac{f(x)-f(a)}{x-a}.
 $$
 
-常用记号 / Common notations：$ f'(x),\; \dfrac{df}{dx},\; \dfrac{dy}{dx},\; D f,\; y' $。
-Typical notations: $ f'(x),\; \dfrac{df}{dx},\; \dfrac{dy}{dx},\; D f,\; y' $.
+常用记号 / Common notations：$f'(x),\; \dfrac{df}{dx},\; \dfrac{dy}{dx},\; D f,\; y'$。
+Typical notations: $f'(x),\; \dfrac{df}{dx},\; \dfrac{dy}{dx},\; D f,\; y'$.
 
 ## 2. 可导与连续 / Differentiability and Continuity
 
-若 $ f $ 在 $ a $ 处可导，则在 $ a $ 处必连续；反之未必。
-If $ f $ is differentiable at $ a $, then $ f $ is continuous at $ a $; the converse may fail.
+若 $f$ 在 $a$ 处可导，则在 $a$ 处必连续；反之未必。
+If $f$ is differentiable at $a$, then $f$ is continuous at $a$; the converse may fail.
 
 可导要求左右导数一致。
 Differentiability requires agreement of one-sided derivatives.
 
 ## 3. 几何意义 / Geometric Meaning
 
-在 $ x=a $ 的切线：$ y = f(a) + f'(a)(x-a) $。
-The tangent line at $ x=a $ is $ y = f(a) + f'(a)(x-a) $.
+在 $x=a$ 的切线：$y = f(a) + f'(a)(x-a)$。
+The tangent line at $x=a$ is $y = f(a) + f'(a)(x-a)$.
 
 ## 4. 相关链接 / Links
 

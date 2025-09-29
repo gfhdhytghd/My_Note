@@ -2,8 +2,8 @@
 
 ## 1. 定理 / Theorem
 
-若 $ y = f(u) $ 且 $ u = g(x) $，则
-If $ y = f(u) $ and $ u = g(x) $, then
+若 $y = f(u)$ 且 $u = g(x)$，则
+If $y = f(u)$ and $u = g(x)$, then
 $$
 \frac{dy}{dx} = f'(u)\,g'(x).
 $$
@@ -13,16 +13,16 @@ Multi-layer composition applies iteratively.
 
 ## 2. 例子 / Examples
 
-- $ y = \sin(x^2) \Rightarrow y' = \cos(x^2)\cdot 2x $。
-  $ y = \sin(x^2) \Rightarrow y' = \cos(x^2)\cdot 2x $.
+- $y = \sin(x^2) \Rightarrow y' = \cos(x^2)\cdot 2x$。
+  $y = \sin(x^2) \Rightarrow y' = \cos(x^2)\cdot 2x$.
 
-- $ y = e^{\ln(\sqrt{x})} \Rightarrow y' = e^{\ln(\sqrt{x})}\cdot \dfrac{1}{2x} = \dfrac{1}{2\sqrt{x}} $。
-  $ y = e^{\ln(\sqrt{x})} \Rightarrow y' = e^{\ln(\sqrt{x})}\cdot \dfrac{1}{2x} = \dfrac{1}{2\sqrt{x}} $.
+- $y = e^{\ln(\sqrt{x})} \Rightarrow y' = e^{\ln(\sqrt{x})}\cdot \dfrac{1}{2x} = \dfrac{1}{2\sqrt{x}}$。
+  $y = e^{\ln(\sqrt{x})} \Rightarrow y' = e^{\ln(\sqrt{x})}\cdot \dfrac{1}{2x} = \dfrac{1}{2\sqrt{x}}$.
 
 ## 3. 常见模式 / Common Patterns
 
-- $ (a^{g(x)})' = a^{g(x)}\ln(a)\, g'(x) $；$ (\ln(g(x)))' = \dfrac{g'(x)}{g(x)} $。
-  $ (a^{g(x)})' = a^{g(x)}\ln(a)\, g'(x) $; $ (\ln(g(x)))' = \dfrac{g'(x)}{g(x)} $.
+- $(a^{g(x)})' = a^{g(x)}\ln(a)\, g'(x)$；$(\ln(g(x)))' = \dfrac{g'(x)}{g(x)}$。
+  $(a^{g(x)})' = a^{g(x)}\ln(a)\, g'(x)$; $(\ln(g(x)))' = \dfrac{g'(x)}{g(x)}$.
 
 ## 4. 相关链接 / Links
 

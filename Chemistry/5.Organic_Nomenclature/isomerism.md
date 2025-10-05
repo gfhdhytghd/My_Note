@@ -1,0 +1,139 @@
+# 同分异构体与几何异构体 / Isomerism and Geometric Isomers
+
+- 目标/Scope：系统梳理有机化学中的同分异构现象，重点介绍几何异构体<br>Systematically cover isomerism in organic chemistry, focusing on geometric isomers.
+- 相关/Related：见键性质与分子结构[[Chemistry/4.Chemical_Bonds/bond_properties]]，有机命名[[hydrocarbon_nomenclature]]<br>See also bonding and molecular structure [[Chemistry/4.Chemical_Bonds/bond_properties]], organic nomenclature [[hydrocarbon_nomenclature]].
+
+## 同分异构体概述 / Overview of Isomerism
+
+### 定义 / Definition
+- 同分异构体/Isomers：分子式相同但结构不同的化合物<br>Compounds with the same molecular formula but different structures.
+- 分类/Classification：结构异构体 vs 立体异构体<br>Structural isomers vs stereoisomers.
+
+### 结构关系判断流程 / Structural Relationship Decision Tree
+
+```
+确定两个结构的关系 / Determining the relationship between two structures
+
+相同分子式？/ Same Molecular Formula?
+即，相同碳原子数+杂原子数，相同不饱和度 / i.e., same # C's + heteroatoms, and same # degrees of unsaturation
+
+否 / No → 不是异构体 / Not Isomers
+
+是 / Yes →
+
+相同原子连接方式？/ Same atom-to-atom connectivity?
+
+否 / No → 构造异构体 / Constitutional Isomers
+
+是 / Yes →
+
+能否有几何异构体？/ Can it have a geometric isomer?
+
+否 / No → 相同分子 / Same Molecule
+
+是 / Yes →
+
+它们是几何异构体吗？/ Are they geometric isomers?
+即，顺反关系是否相反？/ i.e., are cis/trans relationships reversed?
+
+否 / No → 相同分子 / Same Molecule
+
+是 / Yes → 几何异构体 / Geometric Isomers
+```
+
+### 结构异构体 / Structural Isomers
+- 碳链异构/Chain isomerism：主链长度或分支不同<br>Different carbon chain lengths or branching.
+- 位置异构/Position isomerism：官能团位置不同<br>Different positions of functional groups.
+- 官能团异构/Functional group isomerism：不同官能团类型<br>Different types of functional groups.
+
+## 立体异构体 / Stereoisomers
+
+### 几何异构体（顺反异构）/ Geometric Isomers (Cis-Trans Isomerism)
+
+#### 产生条件 / Conditions for Formation
+- 双键限制旋转/Restricted rotation around double bonds：$C=C$ 键的 $\pi$ 键阻止自由旋转<br>$\pi$ bonds in $C=C$ prevent free rotation.
+- 不同取代基/Different substituents：双键两端必须连接不同的基团<br>Different groups must be attached to each end of the double bond.
+
+#### E/Z 命名系统 / E/Z Nomenclature System
+- CIP 规则/CIP rules：按原子序数确定基团优先级<br>Determine group priority by atomic number.
+- E 构型/E configuration：高优先级基团在双键异侧<br>Higher priority groups on opposite sides.
+- Z 构型/Z configuration：高优先级基团在双键同侧<br>Higher priority groups on the same side.
+
+#### 示例 / Examples
+- 2-丁烯/2-butene：
+  - E-2-丁烯：$CH_3$ 和 $H$ 在双键异侧<br>$CH_3$ and $H$ on opposite sides.
+  - Z-2-丁烯：$CH_3$ 和 $H$ 在双键同侧<br>$CH_3$ and $H$ on the same side.
+
+### 环状化合物的几何异构 / Geometric Isomerism in Cyclic Compounds
+
+#### 环烷烃 / Cycloalkanes
+- 顺式/cis：取代基在环的同侧<br>Substituents on the same side of the ring.
+- 反式/trans：取代基在环的异侧<br>Substituents on opposite sides of the ring.
+
+#### 示例 / Examples
+- 1,2-二甲基环丙烷/1,2-dimethylcyclopropane：
+  - 顺式：两个甲基在环的同侧<br>Both methyl groups on the same side.
+  - 反式：两个甲基在环的异侧<br>Methyl groups on opposite sides.
+
+## 其他立体异构体 / Other Stereoisomers
+
+### 对映异构体 / Enantiomers
+- 手性中心/Chiral centers：碳原子连接四个不同基团<br>Carbon atoms with four different groups.
+- 镜像关系/Mirror image relationship：不能重叠的立体异构体<br>Non-superimposable mirror images.
+
+### 非对映异构体 / Diastereomers
+- 定义/Definition：不是镜像关系的立体异构体<br>Stereoisomers that are not mirror images.
+- 几何异构体属于此类/Geometric isomers are diastereomers<br>Geometric isomers are a type of diastereomers.
+
+## 物理化学性质差异 / Physical and Chemical Properties
+
+### 几何异构体的性质差异 / Properties of Geometric Isomers
+- 熔点/Melting points：通常不同<br>Usually different.
+- 沸点/Boiling points：通常不同<br>Usually different.
+- 极性/Polarity：顺式通常极性更大<br>Cis isomers usually more polar.
+- 稳定性/Stability：反式通常更稳定<br>Trans isomers usually more stable.
+
+### 生物活性差异 / Biological Activity Differences
+- 酶特异性/Enzyme specificity：生物体通常只识别特定构型<br>Organisms usually recognize specific configurations.
+- 药物活性/Drug activity：不同构型可能有不同药效<br>Different configurations may have different effects.
+
+## 命名规则总结 / Naming Rules Summary
+
+### E/Z 系统应用 / E/Z System Application
+1. 确定双键两端的基团优先级<br>Determine priority of groups at each end of double bond.
+2. 比较两端的最高优先级基团<br>Compare highest priority groups at each end.
+3. 同侧为 Z，异侧为 E<br>Same side = Z, opposite sides = E.
+
+### 环状化合物命名 / Cyclic Compound Naming
+- 使用 cis/trans 前缀<br>Use cis/trans prefixes.
+- 标明取代基位置<br>Specify substituent positions.
+
+## 实际应用 / Practical Applications
+
+### 工业应用 / Industrial Applications
+- 聚合物合成/Polymer synthesis：不同构型影响聚合物性质<br>Different configurations affect polymer properties.
+- 催化剂设计/Catalyst design：立体选择性反应<br>Stereoselective reactions.
+
+### 生物化学意义 / Biochemical Significance
+- 蛋白质结构/Protein structure：氨基酸的立体化学<br>Stereochemistry of amino acids.
+- 药物设计/Drug design：手性药物的开发<br>Development of chiral drugs.
+
+## 练习与示例 / Practice and Examples
+
+### 命名练习 / Naming Practice
+- 判断是否存在几何异构<br>Determine if geometric isomerism exists.
+- 应用 E/Z 命名系统<br>Apply E/Z nomenclature system.
+- 识别顺反异构体<br>Identify cis/trans isomers.
+
+### 结构绘制 / Structure Drawing
+- 绘制不同构型的结构式<br>Draw structures of different configurations.
+- 理解立体化学关系<br>Understand stereochemical relationships.
+
+## 来源 / Source
+- 提炼自日记：[[journal/2025-10-03]]<br>Extracted from daily note [[journal/2025-10-03]].
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[Chemistry/4.Chemical_Bonds/bond_properties]: ../4.Chemical_Bonds/bond_properties.md "化学键性质 / Bond Properties"
+[hydrocarbon_nomenclature]: hydrocarbon_nomenclature.md "有机物命名：烷/烯/炔 / IUPAC Nomenclature: Alkanes/Alkenes/Alkynes"
+[journal/2025-10-03]: ../../journal/2025-10-03.md "2025-10-03"
+[//end]: # "Autogenerated link references"

@@ -12,6 +12,19 @@
   - Find broken math spacing: `rg -n -P "\$\s|\s\$|\\\(\s|\s\\\)" Math`.
   - Find unresolved links: `rg -n "\[\[.*\]\]"` then verify paths.
 
+## Python 虚拟环境 / Python Virtual Environment
+- 用途 / Purpose：在仓库内使用专用 venv 运行绘图与轻量脚本，隔离依赖，避免污染系统环境。
+- 位置 / Location：项目根目录 `.venv/`（不要提交到仓库）。
+- 创建与激活 / Create & activate：
+  - macOS/Linux：`python3 -m venv .venv && source .venv/bin/activate`
+  - Windows：`python -m venv .venv && .venv\Scripts\activate`
+- 安装绘图库 / Install plotting deps：`pip install -U pip matplotlib`。
+- 生成图像的保存位置 / Where to save figures：
+  - 日记/一次性插图：放入 `attachments/` 并在笔记中用 `![[attachments/xxx.png]]` 嵌入。
+  - 学科笔记中可复用插图：优先放入 `assets/` 并使用相对路径引用。
+- 使用与退出 / Use & deactivate：激活后直接运行 `python ...`；完成后 `deactivate` 退出。
+- 复现提示 / Repro tip：若提示缺包，在已激活 venv 中执行 `pip install <package>` 即可。
+
 ## Coding Style & Naming Conventions
 - Language: default contributions and examples in Simplified Chinese; notes are bilingual (每个段落/要点中英对照)。
 - Filenames/folders: English only. Files use snake_case (e.g., `derivative_rules.md`); chapter folders prefixed `1.`, `2.`, … (avoid the word “chapter”).

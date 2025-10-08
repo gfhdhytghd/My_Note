@@ -6,6 +6,8 @@
 
 ![ORGANIC REACTI0NS MAP](attachments/Types-of-Organic-Reactions-Chemical-Reactions.whitebg.png)
 
+![Protein](attachments/cf30968744c545b18dbf3ce0b719676b_720.png)
+
 ## 快速导航 / Quick Navigation
 - [[Chemistry/5.Organic_Nomenclature/fg_1_definition_role]] — 定义与作用 / Definition & Role
 - [[Chemistry/5.Organic_Nomenclature/fg_2_taxonomy_overview]] — 分类总览 / Taxonomy Overview

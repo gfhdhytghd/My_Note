@@ -1,0 +1,58 @@
+Nucleic acid is a general term that includes both DNA (deoxyribonucleic acid) and
+RNA (ribonucleic acid). Nucleic acids get their name because they were originally
+found in the nucleus, although we now know they are found in other regions of the
+cell. They called “acids” because their backbone has a phosphoric acid unit. Both DNA
+and RNA are polymers made of monomers known as nucleotides. Shown here is a
+DNA double helix, and a single nucleotide is highlighted. The nucleotide structure
+contains three pieces, a sugar (green in the skeletal structure), a phosphate group
+(red in the skeletal structure), and a nitrogenous base (blue in the skeletal structure).
+The nitrogenous base is also called a nucleobase (the two terms mean the same
+thing). The identity of the nitrogenous base varies from one monomer to the next,
+and it is the order of monomers that allows nucleic acids to store information. The
+sugar and phosphate, which comprise the so-called "sugar-phosphate" backbone, are
+invariant, with the exception that the identity of the sugar determines whether the
+nucleic acid is RNA or DNA. Another defining difference between DNA and RNA is
+that DNA in the cell is always double-stranded, while RNA is single-stranded.
+
+
+
+
+                                                                                            1
+The two different sugars that are found in polynucleotide chains (nucleic acids) are
+ribose and 2’-deoxyribose (or deoxyribose for short). The two sugars are chemically
+identical except that the 2’ carbon in deoxyribose is not bonded to a hydroxyl (i.e.,
+OH) group. In other words, the 2’ -OH is changed to a 2’ hydrogen atom giving rise to
+the prefix "deoxy" for the sugar in DNA. Ribose is the sugar found in RNA nucleotides
+and 2’-deoxyribose is the sugar found in DNA nucleotides.
+
+The numbering of the carbons in these two sugars is worth remembering, as it is the
+basis for describing the directionality of polynucleotide chains. Primes (’) are used to
+number the sugars because non-primed numbers are used for the bases.
+
+It’s also worth noting that ribose is a carbohydrate (with the empirical formula CH2O),
+whereas deoxyribose is not.
+
+
+
+
+                                                                                           2
+The nitrogenous bases attached to each nucleotide are all derived from one of two
+simpler compounds: purine or pyrimidine. Purine, whose structure and numbering is
+shown, is a fused, bicyclic aromatic compound. ('Bicyclic' means the purines are
+made of two rings. 'Fused' means the 5-atom and 6-atom rings are attached at two
+contiguous atoms.) In contrast, pyrimidine is a smaller compound, consisting of only a
+single six-membered ring. Two nitrogenous bases are derived from purine: guanine
+and adenine. Three nitrogenous bases are derived from pyrimidine: cytosine,
+thymine, and uracil. In living systems thymine is only found in DNA and uracil is only
+found in RNA.
+
+All of these bases are aromatic in character and thus flat. You will recall that we
+observed this property in adenine in Recitation 6. Due to delocalized pi bonding, each
+non-hydrogen atom in each ring has sp2 hybridization and thus has trigonal planar
+electron domain geometry.
+
+
+
+
+                                                                                         3
+

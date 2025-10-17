@@ -2,11 +2,11 @@
 
 > 本页为索引页；各模块已拆分至子页。/ This is an index page; content split into subpages.
 
-![FUNCTIONAL GROUPS IN ORGAIC CHEMSTRY](attachments/Functional-Groups-in-Organic-Chemistry.png)
+![[attachments/Functional-Groups-in-Organic-Chemistry.png]]
 
-![ORGANIC REACTI0NS MAP](attachments/Types-of-Organic-Reactions-Chemical-Reactions.whitebg.png)
+![[attachments/Types-of-Organic-Reactions-Chemical-Reactions.whitebg.png]]
 
-![Protein](attachments/cf30968744c545b18dbf3ce0b719676b_720.png)
+![[attachments/cf30968744c545b18dbf3ce0b719676b_720.png]]
 
 ## 快速导航 / Quick Navigation
 - [[Chemistry/5.Organic_Nomenclature/fg_1_definition_role]] — 定义与作用 / Definition & Role

@@ -3,6 +3,7 @@
 ## Project Structure & Module Organization
 - Notes by subject: `Math/`, `Chemistry/`, `Economics/`; chapters like `Math/1.Precalculus`, `Math/2.Limit`, `Math/3.Derivatives`.
 - Daily logs: `Daily Notes/`. Media: `assets/` (images), `attachments/` (files). Layout/site: `_layouts/`, `docs/`.
+- when insert images, use form '![alt text](path)'
 - Keep original daily notes; when extracting topics, add backlinks to the source daily note.
 - Foam/Obsidian friendly. Prefer wiki-links `[[...]]`; use card embeds `card![[...]]` when useful.
 

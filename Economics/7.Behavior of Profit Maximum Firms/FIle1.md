@@ -2,8 +2,8 @@
 
 ## 基本利润公式 / Basic Profit Formula
 
-$$ Profit= Total\ revenue-Total\ Cost $$
-$$ Total\ Revenue=P \times Q $$
+$$Profit=Total\ revenue-Total\ Cost$$
+$$Total\ Revenue=P \times Q$$
 
 ## 成本类型 / Types of Costs
 

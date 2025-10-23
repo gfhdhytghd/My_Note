@@ -625,6 +625,275 @@ D. Anonymous messages
 50. **A** – Uses admiration for celebrities.
 
 ---
+## Part 6: Applied Propaganda Analysis
+
+### Question 51
+A campaign ad that shows a happy family buying eco-friendly products mainly uses which persuasive appeal?  
+A. Logical reasoning  
+B. Fear appeal  
+C. Emotional identification and lifestyle association  
+D. Authority reasoning  
+
+### Question 52
+Which best illustrates *card stacking* in a climate policy debate?  
+A. Presenting only data showing benefits of renewable energy while ignoring costs  
+B. Comparing both pros and cons equally  
+C. Asking open-ended questions  
+D. Discussing unrelated moral topics  
+
+### Question 53
+The statement “Freedom and prosperity for all!” with no specific policy attached is an example of:  
+A. Glittering generalities  
+B. Plain folks appeal  
+C. Rational argument  
+D. Fallacy of relevance  
+
+### Question 54
+When a politician emphasizes “jobs lost because of immigrants,” this best exemplifies:  
+A. Framing through blame  
+B. Neutral reporting  
+C. Priming through economy  
+D. Bandwagon appeal  
+
+### Question 55
+Which statement shows *confirmation bias*?  
+A. “I only follow news sources that agree with my views.”  
+B. “I analyze multiple sides before deciding.”  
+C. “I enjoy being challenged.”  
+D. “I change my mind when proven wrong.”  
+
+### Question 56
+The phrase “We must protect our children from outsiders!” represents:  
+A. Enemyship and fear appeal  
+B. Glittering generalities  
+C. Rational planning  
+D. Logical appeal  
+
+### Question 57
+Which best describes Bernays’s innovation in public relations?  
+A. He used psychological principles to engineer consent  
+B. He rejected emotion in marketing  
+C. He invented the printing press  
+D. He banned advertising  
+
+### Question 58
+When media coverage repeatedly highlights a crime story, causing the public to perceive crime as rising, this demonstrates:  
+A. Agenda setting  
+B. Priming only  
+C. Random bias  
+D. Narrative immersion  
+
+### Question 59
+A “bandwagon” technique would most likely say:  
+A. “Join millions of Americans who already support this movement.”  
+B. “Think critically about both sides.”  
+C. “You are free to disagree.”  
+D. “Experts remain divided.”  
+
+### Question 60
+What is the ethical concern with “fear appeals”?  
+A. They can manipulate emotions without empowering action  
+B. They increase audience knowledge  
+C. They ensure logical reasoning  
+D. They reduce anxiety safely  
+
+---
+
+### **Answers 51–60**
+51. **C** – Links emotion/lifestyle to persuasion.  
+52. **A** – One-sided data = card stacking.  
+53. **A** – Vague positive phrase = glittering generality.  
+54. **A** – Framing by assigning blame.  
+55. **A** – Selective info exposure.  
+56. **A** – Enemyship + fear trigger.  
+57. **A** – Used Freud’s psychology in PR.  
+58. **A** – Issue salience = agenda setting.  
+59. **A** – Bandwagon = social proof.  
+60. **A** – Fear w/out efficacy = manipulation.
+
+---
+
+## Part 7: Public Opinion & Democracy
+
+### Question 61
+Public opinion matters in democracy because:  
+A. It legitimizes authority and guides policy  
+B. It replaces elections  
+C. It is always unanimous  
+D. It prevents media influence  
+
+### Question 62
+According to Bernays, democracy without propaganda would be:  
+A. Disorganized and chaotic  
+B. More rational  
+C. Morally perfect  
+D. Ineffective but honest  
+
+### Question 63
+The phrase “manufacturing consent” suggests:  
+A. Consent is produced through managed communication  
+B. Voters always make free choices  
+C. Media cannot influence belief  
+D. Consent naturally arises  
+
+### Question 64
+When individuals fear social isolation for expressing unpopular views, this illustrates:  
+A. Spiral of silence  
+B. Priming  
+C. Framing  
+D. Confirmation bias  
+
+### Question 65
+Why is *doxa* powerful in propaganda?  
+A. It provides common-sense assumptions that appear natural  
+B. It challenges all beliefs  
+C. It relies solely on data  
+D. It eliminates emotion  
+
+### Question 66
+“Public opinion is the measuring stick of power” means:  
+A. Power depends on perceived support from the public  
+B. Authority has no link to opinion  
+C. Power is purely economic  
+D. Opinion never changes policy  
+
+### Question 67
+The combination of agenda-setting and framing can:  
+A. Control both *what* people think about and *how* they think about it  
+B. Eliminate bias  
+C. Encourage total neutrality  
+D. Replace factual reporting  
+
+### Question 68
+Selective exposure and confirmation bias together often result in:  
+A. Polarization and echo chambers  
+B. Broader empathy  
+C. Less certainty  
+D. Improved reasoning  
+
+### Question 69
+What was Freud’s main idea relevant to persuasion?  
+A. Behavior is driven by unconscious motives  
+B. Humans are perfectly rational  
+C. Reason overrides desire  
+D. Emotion should be ignored  
+
+### Question 70
+In marketing, applying Freud’s theory often means:  
+A. Appealing to hidden desires and identity  
+B. Listing scientific facts only  
+C. Using neutral messages  
+D. Avoiding emotional appeal  
+
+---
+
+### **Answers 61–70**
+61. **A** – Opinion legitimizes rule.  
+62. **A** – Bernays saw propaganda as coordination tool.  
+63. **A** – Consent = engineered communication.  
+64. **A** – Fear of isolation → silence.  
+65. **A** – Doxa = naturalized assumptions.  
+66. **A** – Power linked to public approval.  
+67. **A** – Agenda = what; frame = how.  
+68. **A** – Leads to polarization.  
+69. **A** – Unconscious drives guide acts.  
+70. **A** – Marketing taps hidden motives.
+
+---
+
+## Part 8: Ethics, Logic & Applied Reasoning
+
+### Question 71
+Which statement best defines an ethical propaganda campaign?  
+A. It is truthful enough for informed judgment and minimizes harm  
+B. It hides evidence for the greater good  
+C. It manipulates emotions at all cost  
+D. It forbids emotional appeal  
+
+### Question 72
+A communicator who uses *fear* but provides clear steps to act responsibly is applying:  
+A. Ethical fear appeal  
+B. Card stacking  
+C. Loaded words  
+D. Glittering generalities  
+
+### Question 73
+Which best shows *identification* at work?  
+A. “The candidate grew up just like you, facing the same struggles.”  
+B. “Statistics prove 90% accuracy.”  
+C. “Experts confirm our hypothesis.”  
+D. “Opponents are evil.”  
+
+### Question 74
+A slogan saying “Don’t be the last to join!” combines:  
+A. Fear of exclusion and bandwagon appeal  
+B. Rational proof  
+C. Glittering generality  
+D. Logical argument  
+
+### Question 75
+“Framing” can be unethical when it:  
+A. Hides alternative interpretations intentionally  
+B. Offers multiple perspectives  
+C. Clarifies complex issues transparently  
+D. Encourages open debate  
+
+### Question 76
+Which best describes *collective pride* used positively?  
+A. Motivating group solidarity for social progress  
+B. Excluding outsiders  
+C. Promoting hatred  
+D. Denying responsibility  
+
+### Question 77
+An advertisement showing a doctor recommending a product mainly uses:  
+A. Appeal to authority  
+B. Plain folks appeal  
+C. Bandwagon  
+D. Stereotyping  
+
+### Question 78
+The logical fallacy “false dilemma” occurs when:  
+A. Only two extreme options are presented as the only choices  
+B. Many choices are listed  
+C. Evidence is provided fairly  
+D. Conclusions are postponed  
+
+### Question 79
+Why can “misleading numbers” be persuasive?  
+A. They appear objective and scientific  
+B. People distrust statistics  
+C. Numbers are emotional  
+D. Data always misleads  
+
+### Question 80
+Which is a sign of ethical persuasion rather than manipulative propaganda?  
+A. Respecting audience autonomy and informed choice  
+B. Emotional overdrive  
+C. Censorship of opposing views  
+D. Data distortion  
+
+---
+
+### **Answers 71–80**
+71. **A** – Ethical = truthful + minimal harm.  
+72. **A** – Fear + efficacy = responsible.  
+73. **A** – Shared experience builds identification.  
+74. **A** – Fear of missing out + bandwagon.  
+75. **A** – Manipulative omission of frames.  
+76. **A** – Pride fostering collective good.  
+77. **A** – Authority endorsement.  
+78. **A** – Only two extremes given.  
+79. **A** – “Scientific” appearance convinces.  
+80. **A** – Autonomy and honesty mark ethics.
+
+---
+
+✅ **Total questions now: 80**  
+你可以直接把这一段追加进之前的 Markdown 文件末尾，就得到完整的复习题集（含 8 个部分、80 道题 + 每十题答案）。  
+
+是否希望我再帮你生成最后的 20 道高阶应用题（Q81–Q100）？  
+这些可以专门针对 **短文分析 + 案例识别（多媒体宣传分析）**。
 
 *(Remaining 50 questions continue similarly—covering advanced reasoning, ethics, case analysis, and applied recognition of propaganda patterns.)*
 

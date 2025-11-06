@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <title>Positive Externality Diagram (MSB right of MPB; subsidy shifts S right)</title>
+  <desc>Supply S (MPC=MSC), Demand D (MPB), Social Demand D′ (MSB). Market Q* vs Social Q_social optimum. Supply subsidy shifts S to the right.</desc>
+  <defs>
+    <style>
+      .axis{stroke:#333;stroke-width:2}
+      .grid{stroke:#ddd;stroke-width:1}
+      .label{font: 13px sans-serif; fill:#222}
+      .small{font: 12px sans-serif; fill:#444}
+      .S{stroke:#0b6;stroke-width:2.5}
+      .Ssub{stroke:#0b6;stroke-width:2.5;stroke-dasharray:6 5}
+      .D{stroke:#c03;stroke-width:2.5}
+      .Dprime{stroke:#c03;stroke-width:2.5;stroke-dasharray:6 6}
+      .dash{stroke:#555;stroke-width:1.5;stroke-dasharray:4 4}
+      .dot{fill:#222}
+      .note{font: 12px sans-serif; fill:#222}
+      .legend{font: 12px sans-serif; fill:#222}
+      .box{fill:#fff;stroke:#aaa;stroke-width:1}
+      .arrow{marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <!-- Header -->
+  <text class="label" x="82" y="34">Ex: positive externalities</text>
+
+  <!-- Axes -->
+  <line class="axis" x1="80" y1="460" x2="760" y2="460"/>
+  <line class="axis" x1="80" y1="60" x2="80" y2="460"/>
+  <text class="label" x="765" y="468">Q</text>
+  <text class="label" x="68" y="58">P</text>
+
+  <!-- Guide grid (optional light) -->
+  <g opacity="0.25">
+    <line class="grid" x1="80" y1="420" x2="760" y2="420"/>
+    <line class="grid" x1="80" y1="340" x2="760" y2="340"/>
+    <line class="grid" x1="80" y1="260" x2="760" y2="260"/>
+    <line class="grid" x1="80" y1="180" x2="760" y2="180"/>
+    <line class="grid" x1="80" y1="100" x2="760" y2="100"/>
+  </g>
+
+  <!-- Curves -->
+  <!-- Supply S (MPC = MSC) -->
+  <line class="S" x1="120" y1="360" x2="700" y2="160"/>
+  <!-- Demand D (MPB) -->
+  <line class="D" x1="120" y1="120" x2="700" y2="360"/>
+  <!-- Social Demand D' (MSB) -->
+  <line class="Dprime" x1="120" y1="90" x2="700" y2="330"/>
+
+  <!-- Intersections (approximate) -->
+  <!-- Market equilibrium: S ∩ D -->
+  <circle class="dot" cx="436.5" cy="251.5" r="3.5"/>
+  <!-- Social optimum: S ∩ D' (or equivalently where MSB = MSC) -->
+  <circle class="dot" cx="475.8" cy="237.6" r="3.5"/>
+
+  <!-- Vertical quantity markers -->
+  <line class="dash" x1="436.5" y1="460" x2="436.5" y2="251.5"/>
+  <line class="dash" x1="475.8" y1="460" x2="475.8" y2="237.6"/>
+  <text class="small" x="424" y="478">Q*</text>
+  <text class="small" x="446" y="494">Q_social optimum</text>
+
+  <!-- Labels for curves -->
+  <text class="legend" x="710" y="160">S</text>
+  <text class="legend" x="700" y="330">D′</text>
+  <text class="small" x="715" y="328">(MSB)</text>
+  <text class="legend" x="700" y="360">D</text>
+  <text class="small" x="715" y="358">(MPB)</text>
+
+  <!-- Notes / callouts -->
+  <text class="note" x="488" y="232">MSB = MSC</text>
+  <text class="note" x="490" y="246">(social optimum)</text>
+
+  <!-- Subsidy arrow (demand subsidy: D → D′) -->
+  <line class="dash arrow" x1="400" y1="280" x2="450" y2="280"/>
+  <text class="small" x="380" y="274">subsidy</text>
+
+  <!-- Legend box -->
+  <g>
+    <rect class="box" x="92" y="70" width="210" height="88" rx="6" ry="6"/>
+    <line class="S" x1="102" y1="92" x2="142" y2="92"/>
+    <text class="small" x="150" y="96">S (MPC = MSC)</text>
+    <line class="D" x1="102" y1="110" x2="142" y2="110"/>
+    <text class="small" x="150" y="114">D = MPB</text>
+    <line class="Dprime" x1="102" y1="128" x2="142" y2="128"/>
+    <text class="small" x="150" y="132">D′ = MSB</text>
+  </g>
+
+  <!-- Axis captions -->
+  <text class="small" x="34" y="300" transform="rotate(-90 34,300)">Price (P)</text>
+  <text class="small" x="700" y="495">Quantity (Q)</text>
+
+  <!-- Bottom note (as in original) -->
+  <text class="small" x="82" y="512">The Government can subsidize Supply or Demand to get to the social optimum.</text>
+</svg>

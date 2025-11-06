@@ -7,6 +7,31 @@
 - Keep original daily notes; when extracting topics, add backlinks to the source daily note.
 - Foam/Obsidian friendly. Prefer wiki-links `[[...]]`; use card embeds `card![[...]]` when useful.
 
+### Economics 章节组织 / Economics Chapters
+- 章节目录 / Folders：
+  - `Economics/1.Scope_and_Method`（研究范围与方法 / Scope & Method）
+  - `Economics/2.Scarcity_and_Choice`（稀缺与选择 / Scarcity & Choice）
+  - `Economics/3.Demand_Supply_Market_Equilibrium`（需求、供给与均衡 / Demand, Supply & Equilibrium）
+  - `Economics/4.Demand_Supply_Applications`（供需应用 / Applications）
+  - `Economics/5.Elasticity`（弹性 / Elasticity）
+  - `Economics/6.Household_Behavior_Consumer_Choice`（家庭行为与选择 / Household Choice）
+  - `Economics/7.Production_Process`（生产过程 / Production Process）
+  - `Economics/8.Short_Run_Costs`（短期成本与决策 / Short-Run Costs）
+  - `Economics/9.Long_Run_Costs`（长期成本与决策 / Long-Run Costs）
+  - `Economics/12.Perfect_Competition_Efficiency`（完全竞争与效率 / Perfect Competition Efficiency；不含一般均衡）
+  - `Economics/13.Monopoly_Antitrust`（垄断与反垄断 / Monopoly & Antitrust）
+  - `Economics/14.Oligopoly_Strategic_Behavior`（寡头与战略行为 / Oligopoly & Strategy）
+  - `Economics/16.Externalities_Public_Goods`（外部性与公共品 / Externalities & Public Goods）
+  - `Economics/17.Uncertainty_Asymmetric_Information`（不确定性与信息不对称 / Uncertainty & Asymmetric Info）
+  - `Economics/18.Income_Distribution_Poverty`（收入分配与贫困 / Income & Poverty）
+  - `Economics/19.Taxes`（税收 / Taxes）
+  - `Economics/Behavioral_Economics`（行为经济学 / Behavioral Economics）
+- 目录页 / TOC：优先使用 `Economics/README.md` 或 `Economics/economics_chapter_index.md` 作为章节入口，并在课程调整时同步更新。
+- 迁移提示 / Migration tips：仓库已从旧路径迁移（如 `Economics/4.Market`, `Economics/1.Foundation`, `Economics/6.Production_Costs` 等）。新增或修改链接时请避免使用旧路径。
+- 快速检查 / Quick checks：
+  - 查旧路径残留：`rg -n "Economics/(4\.Market|1\.Foundation|6\.Production_Costs|8\.Perfect_Competition|9\.Monopoly|10\.Oligopoly)"` 并逐条修正。
+  - 章节内相对链接优先保持同目录短链；跨章节可用全路径 wiki-link（如 `[[Economics/3.Demand_Supply_Market_Equilibrium/market_equilibrium]]`）。
+
 ## Build, Test, and Development Commands
 - No build required. Open in Obsidian or VS Code + Foam.
 - Quick checks:

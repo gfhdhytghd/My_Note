@@ -1,0 +1,52 @@
+We have already seen that dissolution can occur when a solid solute is combined with
+a solvent. The reverse of this process, the precipitation of a crystalline solid from a
+solution, can occur as well.
+
+Imagine a scenario in which a very large amount of salt is added to a small quantity of
+solvent. Initially the rate of dissolution will be much faster than the rate of
+crystallization since the solvent initially contains no solute that can crystallize. As
+more solute dissolves, the concentration of solute in the solution increases, thus
+increasing the rate of crystallization as well. Eventually the solute concentration will
+reach a point where the rate of crystallization equals the rate of dissolution (i.e., a
+state of dynamic equilibrium). At that point, there will no longer be anymore net
+dissolution of the solute. This maximum solute concentration, at which the rates of
+dissolution and crystallization are equal, is known as the solubility of the solute.
+
+The solubility of a solute is the maximum amount in grams or moles of a solute that
+can dissolve in a specific volume of solvent under a specific set of conditions. A
+solute’s solubility is influenced by the types of IMFs the solute forms with itself and
+with the solvent. Solubility is also affected by temperature and can increase or
+decrease with temperature depending on the salt and solvent.. The solubility of gases
+is affected by pressure as well.
+
+
+
+
+                                                                                           1
+The terms unsaturated, saturated, and supersaturated are used to describe how much solute is
+dissolved in a solution relative to the solubility of the solute under those conditions.
+
+Unsaturated solutions contain less solute than is soluble under a given set of conditions. For
+example, the solubility of NaCl in water is 36 g per 100 g of water at room temperature. Thus, 30
+g of NaCl will dissolve completely in 100 g of water. The resulting solution will contain less solute
+than is soluble under those conditions (30 g versus 36 g), meaning that the solution is
+unsaturated.
+
+Saturated solutions contain the maximum amount of solute that is soluble under a given set of
+conditions. For example, if 40 g of NaCl is combined with 100 g of water at room temperature,
+only 36 g of the NaCl will dissolve since the solubility of NaCl in water is 36 g per 100 g of water
+this temperature. The remaining 4 g of NaCl will remain as a solid at the bottom of the solution.
+The resulting solution is said to be saturated since it contains the maximum amount of solute that
+is soluble under those conditions (36 g).
+
+Supersaturated solutions contain more dissolved soluble than is soluble under those conditions.
+These solutions are unstable, and given the opportunity, the excess solute will precipitate from
+the solution. Supersaturated solutions are typically created by changes in pressure or temperature
+that lower the solubility of a solute, such as cooling the sample. For example, at 100°C 39 g of
+NaCl can dissolve in 100 g of water. If a saturated solution of NaCl is prepared at 100°C and then
+cooled to room temperature (where NaCl is less solubility), the solution will be supersaturated, at
+least until some of the dissolved solute precipitates from the solution.
+
+
+                                                                                                        2
+

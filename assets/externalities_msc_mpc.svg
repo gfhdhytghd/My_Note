@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333" />
+    </marker>
+    <linearGradient id="dwlGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Margins and axes -->
+  <rect x="0" y="0" width="800" height="560" fill="#ffffff"/>
+  <!-- Axes -->
+  <line x1="80" y1="490" x2="770" y2="490" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="80" y1="490" x2="80" y2="40" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="772" y="506" font-size="14" fill="#333">Q (数量 / Quantity)</text>
+  <text x="36" y="48" font-size="14" fill="#333" transform="rotate(-90,36,48)">P (价格 / Price)</text>
+
+  <!-- Demand (MB=MPB) -->
+  <line x1="120" y1="80" x2="760" y2="460" stroke="#1f77b4" stroke-width="3"/>
+  <text x="570" y="110" font-size="14" fill="#1f77b4">需求 / Demand (MB = MPB)</text>
+
+  <!-- MPC (private marginal cost) -->
+  <line x1="140" y1="440" x2="760" y2="120" stroke="#2ca02c" stroke-width="3"/>
+  <text x="610" y="140" font-size="14" fill="#2ca02c">MPC（边际私人成本）</text>
+
+  <!-- MSC (social marginal cost) parallel and above MPC -->
+  <line x1="140" y1="380" x2="760" y2="60" stroke="#d62728" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="590" y="85" font-size="14" fill="#d62728">MSC（边际社会成本 = MPC + MEC）</text>
+
+  <!-- Intersections (approx) -->
+  <!-- Q* at intersection of MSC & Demand: (~400, 246) -->
+  <circle cx="400" cy="246" r="4" fill="#d62728" stroke="#333" stroke-width="1"/>
+  <!-- Q_market at intersection of MPC & Demand: (~454, 278) -->
+  <circle cx="454" cy="278" r="4" fill="#2ca02c" stroke="#333" stroke-width="1"/>
+
+  <!-- Vertical guides for Q* and Q_market -->
+  <line x1="400" y1="490" x2="400" y2="246" stroke="#999" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="454" y1="490" x2="454" y2="278" stroke="#999" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="392" y="510" font-size="13" fill="#333">Q*</text>
+  <text x="436" y="510" font-size="13" fill="#333">Q_market</text>
+
+  <!-- Pigovian tax at Q* (vertical wedge between MPC and MSC at x=400) -->
+  <!-- y on MPC at x=400 ~ 292; on MSC ~ 252; draw bracket -->
+  <line x1="400" y1="292" x2="400" y2="252" stroke="#000" stroke-width="2"/>
+  <line x1="394" y1="292" x2="406" y2="292" stroke="#000" stroke-width="2"/>
+  <line x1="394" y1="252" x2="406" y2="252" stroke="#000" stroke-width="2"/>
+  <text x="406" y="275" font-size="13" fill="#000">τ* = MEC(Q*)</text>
+
+  <!-- Deadweight loss triangle between MSC and Demand from Q* to Q_market -->
+  <!-- Points: (400,246) [Q*], (454,278) [MB at Qm], (454,218) [MSC at Qm] -->
+  <polygon points="400,246 454,278 454,218" fill="url(#dwlGrad)" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="458" y="245" font-size="13" fill="#d9534f">DWL（无谓损失）</text>
+
+  <!-- Labels near intersections -->
+  <text x="410" y="240" font-size="12" fill="#333">社会最优 / Social Optimum</text>
+  <text x="462" y="272" font-size="12" fill="#333">市场均衡 / Market Equilibrium</text>
+
+  <!-- Axes ticks (optional minimal) -->
+  <line x1="200" y1="490" x2="200" y2="486" stroke="#333"/>
+  <line x1="320" y1="490" x2="320" y2="486" stroke="#333"/>
+  <line x1="440" y1="490" x2="440" y2="486" stroke="#333"/>
+  <line x1="560" y1="490" x2="560" y2="486" stroke="#333"/>
+  <line x1="680" y1="490" x2="680" y2="486" stroke="#333"/>
+
+  <!-- Light caption -->
+  <text x="80" y="24" font-size="13" fill="#555">负外部性：MSC 在 MPC 之上，Q_market &gt; Q*</text>
+</svg>
+

@@ -6,6 +6,14 @@
 - 外部性指某项活动的部分成本或收益未由决策者承担，第三方被动受到影响。  
   An externality occurs when part of an activity’s costs or benefits is not borne by the decision makers, so third parties are involuntarily affected.
 
+### 术语释义 / Term Definitions
+- MSC（边际社会成本 / Marginal Social Cost）：多生产或消费一单位对整个社会造成的额外成本，包含私人成本与外部成本之和。  
+  The extra cost to society of one more unit, equal to the sum of private and external costs.
+- MPC（边际私人成本 / Marginal Private Cost）：由决策者（生产者或个体）自己直接承担的一单位额外成本，不包含对他人的外部影响。  
+  The additional cost of one more unit borne directly by the decision maker (producer or individual), excluding effects on others.
+- MEC（边际外部成本 / Marginal External Cost）：额外一单位活动对第三方造成的增量损害或成本；负外部性下 $MEC>0$，正外部性可对应“边际外部收益”（MEB$>0$）。  
+  The incremental harm to third parties from one more unit; with negative externalities $MEC>0$, while positive externalities correspond to a marginal external benefit (MEB$>0$).
+
 ## 外部性类型 / Types of Externalities
 - 负外部性呈现外部成本，如尾气污染、噪音、道路磨损等，导致社会承受的成本高于企业或个人自行承担的成本。  
   Negative externalities manifest as external costs—pollution, noise, road wear—so society bears more cost than firms or individuals internalize.

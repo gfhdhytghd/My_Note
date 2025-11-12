@@ -140,6 +140,75 @@ $$\vec{\mu}_{总} = \sum_{i} \vec{\mu}_i$$
   - H₂O: μ = 1.85 D
   - NH₃: μ = 1.47 D
 
+### 4.3 氧化态与形式电荷 / Oxidation State vs Formal Charge
+
+**氧化态定义 / Oxidation State (OS) Definition:**
+- 氧化态（氧化数）是假想将共价电子全部判给电负性更大原子后，各原子应带的电荷数  
+  Oxidation state is the hypothetical charge on each atom if all bonding electrons are assigned to the more electronegative atom
+- 用于氧化还原计账，并不等于实际电荷或偶极所示电荷分布  
+  It is a bookkeeping tool for redox, not the real charge or dipole distribution
+
+**形式电荷定义 / Formal Charge (FC) Definition:**
+- 形式电荷根据等分共价电子计算：FC = 价电子数 − 非键电子 − 成键电子/2  
+  Formal charge is computed by equally sharing bonding electrons: FC = valence − nonbonding − bonding/2
+- 常用于[[lewis_structures]]分析共振与稳定性  
+  Often used in [[lewis_structures]] to analyze resonance and stability
+
+**氧化态赋值基本规则 / Core Rules for Assigning OS:**
+- 单质原子：OS = 0  
+  Free elements: OS = 0 (e.g., H₂, O₂, P₄)
+- 单原子离子：OS 等于离子电荷  
+  Monatomic ions: OS equals the ion charge (e.g., Na⁺ → +1, S²⁻ → −2)
+- 氟：总为 −1；卤素多为 −1（与O或更电负性元素成键时例外）  
+  F is always −1; other halogens usually −1 unless bonded to O or a more EN element
+- 氧：通常 −2；过氧化物中 −1（如 H₂O₂），超氧化物中 −1/2（如 KO₂）；在 OF₂ 中为 +2  
+  O is usually −2; −1 in peroxides (H₂O₂), −1/2 in superoxides (KO₂); +2 in OF₂
+- 氢：与非金属时 +1；与金属形成氢化物时 −1（如 NaH）  
+  H is +1 with nonmetals; −1 in metal hydrides (NaH)
+- 碱金属：+1；碱土金属：+2；Al 常为 +3；Zn 常为 +2；Ag 常为 +1  
+  Alkali: +1; Alkaline earth: +2; Al usually +3; Zn usually +2; Ag usually +1
+- 分子中各原子 OS 代数和为 0；多原子离子中代数和等于离子电荷  
+  Sum of OS is 0 for neutral molecules; equals the net charge for polyatomic ions
+
+**快速示例 / Quick Examples:**
+- H₂O：H = +1，O = −2；CO₂：C = +4，O = −2  
+  H₂O: H +1, O −2; CO₂: C +4, O −2
+- NH₄⁺：H = +1，总和为 +1 ⇒ N = −3  
+  NH₄⁺: H +1, sum +1 ⇒ N −3
+- Fe₂O₃：O = −2，总和 0 ⇒ 2×Fe + 3×(−2) = 0 ⇒ Fe = +3  
+  Fe₂O₃: O −2, total 0 ⇒ Fe +3
+- H₂O₂（过氧化物）：O = −1；NaH（氢化物）：H = −1  
+  H₂O₂ (peroxide): O −1; NaH (hydride): H −1
+- OF₂：F = −1 ⇒ O = +2；KMnO₄：O = −2 ⇒ Mn = +7  
+  OF₂: F −1 ⇒ O +2; KMnO₄: O −2 ⇒ Mn +7
+
+**与电负性和极性的关系 / Relation to Electronegativity and Polarity:**
+- OS 基于“将键电子全部判给更电负的原子”的极限假设  
+  OS assumes the limiting case of assigning all bonding electrons to the more EN atom
+- 实际分子中电荷分布由电负性差与几何共同决定（见[[electronegativity_and_bond_types]]与本节偶极矩）  
+  Real charge distribution depends on EN difference and geometry (see [[electronegativity_and_bond_types]] and dipole content above)
+
+**与氧化还原的联系 / Link to Redox:**
+- 原子 OS 增加称为“被氧化”；OS 降低称为“被还原”  
+  Increase in OS is oxidation; decrease is reduction
+- 电子转移方向：氧化对应失电子，还原对应得电子  
+  Electron flow: oxidation loses electrons, reduction gains electrons
+
+**OS 与形式电荷的区别 / OS vs FC Differences:**
+- OS 按电负性完全判给；FC 按共价键等分  
+  OS assigns by EN, FC splits bonding equally
+- 例如 NO₃⁻：N 的 OS = +5，而常见共振式中 N 的 FC = +1；O 的 OS = −2，但部分 O 的 FC = 0  
+  Example NO₃⁻: N has OS +5 while typical resonance has N with FC +1; O atoms have OS −2 while some O have FC 0
+
+**过渡金属的多氧化态 / Multiple OS in Transition Metals:**
+- 3d 过渡金属常具多种稳定 OS（如 Fe: +2/+3；Cu: +1/+2；Mn: +2/+4/+7）  
+  3d transition metals exhibit multiple stable OS (e.g., Fe +2/+3; Cu +1/+2; Mn +2/+4/+7)
+- 与配体类型、晶体场与惰性对效应相关  
+  Governed by ligand field, crystal field, and inert pair/relativistic effects
+
+小结：氧化态是连接电负性、极性与氧化还原反应的核心“计账”概念，配合形式电荷可更全面理解结构与反应性  
+Summary: OS is a core bookkeeping concept linking electronegativity, polarity, and redox; together with FC it clarifies structure and reactivity
+
 ---
 
 ## 5. 键的旋转与振动 / Bond Rotation and Vibration

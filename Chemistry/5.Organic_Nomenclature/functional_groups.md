@@ -18,7 +18,7 @@
 - [[Chemistry/5.Organic_Nomenclature/fg_7_study_tips]] — 学习与解题要点 / Study Tips
 
 
-## 相关笔记 / Related Notes
+## 相关笔记 / Related 
 - **命名与异构 / Nomenclature & Isomerism:** [[Chemistry/5.Organic_Nomenclature/hydrocarbon_nomenclature]]，[[Chemistry/5.Organic_Nomenclature/isomerism]]
 - **键与结构 / Bonds & Structure:** [[Chemistry/4.Chemical_Bonds/lewis_structures]]
 - **来源日记 / Source journal:** [[journal/2025-10-06]]

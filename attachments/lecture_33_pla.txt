@@ -1,0 +1,71 @@
+In the upcoming lecture we’re going to begin to explore chemical reactions. During a chemical 
+reaction bonds and lone pairs are reapportioned among the substances involved in the reaction. In 
+order words, bonds are broken and formed during reactions, and electrons are rearranged among 
+the structures of the reactants. 
+
+Mass is conserved during chemical reactions, meaning that no matter is created or destroyed 
+during the reaction. The identities of all atoms involved remain the same (i.e., the nuclei do not 
+change during a chemical reaction). Therefore, the number of atoms of each element involved in 
+the reaction must be equal in both the products and reactants.  
+
+Chemical reactions can be described using a reaction equation like the one presented on the slide. 
+The reaction equation identifies the reactants (on the left side of the arrow) and the products of 
+the reaction (on the right side of the arrow). Each molecular formula in the reaction equation is 
+preceded by a coefficient that identifies the number of moles of each substance that are involved 
+in the reaction. For example, the combustion of ethane involves the reaction of two moles of 
+ethane (C2H6) with seven moles of oxygen to produce four moles of carbon dioxide and six moles 
+of water, as shown in the reaction equation on the slide. If no coefficient is shown in front of a 
+molecular formula then the coefficient is assumed to be one. This equation is said to be balanced
+because the same number of each type of element appears on both sides of the reaction equation. 
+Notice that there are 4 carbon atoms, 12 hydrogen atoms, and 14 oxygen atoms on both the 
+reactant (left) and product (right) sides of the reaction equation. 
+
+1
+
+As we will see in class, some reactions are driven by the formation of a solid precipitate from a solution. In
+order to determine which substances will precipitate we need to be familiar with the solubility trends for 
+common ionic substances. Substances that are soluble in water will not form precipitates, whereas 
+substances that are insoluble will form precipitates. 
+
++, Li+, Na+, K+, Rb+, or Cs+ will always be soluble, with no exceptions 
+-), 
+
+The top part of the chart on this slide describes substances that are soluble, along with a few exceptions. 
+Ionic compounds in which the cation is NH4
+(i.e., the identity of the anion doesn’t matter). Similarly, ionic compounds in which the anion is nitrate (NO3
+-), or acetate (CH3COO-) will always be soluble, with no exceptions (i.e., the identity of the 
+perchlorate (ClO4
+cation doesn’t matter). These soluble anions and cations share the common property that they are relatively 
+large and singly charged and, as you would expect from Coulomb’s law, only form weak interactions with any 
+counter ion. Ionic compounds in which the anion is chloride (Cl-), bromide (Br-), or iodide (I-) are soluble 
+2+), silver (Ag+), or lead (Pb2+). For example, aluminum chloride (AlCl3) 
+unless the cation is mercury(I) (Hg2
+would be soluble, but silver chloride (AgCl) would not be soluble. Ionic compounds in which the anion is 
+sulfate (SO4
+
+2-) are usually soluble unless the cation is Ca2+, Sr2+, Ba2+, Hg2
+
+2+, Ag+, or Pb2+. 
+
+The bottom part of the chart on this slide describes substances that are insoluble, along with a few 
+exceptions. Ionic compounds in which the anion is carbonate (CO3
+the cation is one of those we listed earlier whose salts are always soluble (NH4
+compounds in which the anion is hydroxide (OH-) or sulfide (S2-) are also insoluble unless the cation is NH4
+Li+, Na+, K+, Rb+, Cs+, Ca2+, Sr2+, or Ba2+ (the “always soluble” cations we listed earlier, plus a couple more). 
+
+3-) are insoluble unless 
++, Li+, Na+, K+, Rb+, or Cs+). Ionic 
+
+2-) or phosphate (PO4
+
++, 
+
+If two solutions are mixed together that contain an insoluble cation/anion pair, then the pair of ions will react 
+and form an ionic solid that will precipitate from the solution. For example, If a solution of ammonium sulfate 
+is mixed with a solution of barium chloride, the barium ions and sulfate ions will react to form solid barium 
+sulfate. Ammonium chloride, however, is soluble, so the ammonium and chloride ions would not form a 
+precipitate and would instead remained dissolved in the solution as spectator ions. 
+
+2
+
+

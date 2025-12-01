@@ -1,0 +1,7 @@
+./venv/*
+**/*cache*/*
+*/.venv/*
+.venv/bin/activate
+.venv/bin/*
+.venv
+.vscode

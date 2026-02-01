@@ -47,6 +47,9 @@ On the unit circle (radius 1), for angle $\theta$:
 - $\sin(-\theta) = -\sin\theta$
 - $\cos(-\theta) = \cos\theta$
 
+另见三角恒等变形速查（和差化积、积化和差、倍角/半角、降幂等）：[[Math_Calculus/1.Precalculus/trig_identities]]。  
+See also the trig identities cheat sheet (sum/product transforms, multiple/half-angle, power-reduction, etc.): [[Math_Calculus/1.Precalculus/trig_identities]].
+
 ---
 
 ## 例子 / Examples

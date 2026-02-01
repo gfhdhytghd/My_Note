@@ -1,0 +1,138 @@
+# 三角恒等变形速查 / Trig Identities & Transformations Cheat Sheet
+
+本页整理三角常用恒等式与变形（和差化积、积化和差、二倍角、三倍角、半角、降幂/平方角等），用于化简、解题与积分计算。  
+This page collects commonly used trigonometric identities and transformations (sum-to-product, product-to-sum, double/triple angle, half-angle, power-reduction, etc.) for simplification, problem solving, and integration.
+
+默认角度变量用$x,A,B$表示，且三角函数以弧度制理解更方便（尤其在微积分中）。  
+Angles are denoted by $x,A,B$ by default, and radians are the most convenient in calculus contexts.
+
+## 和差公式 / Sum & Difference
+
+|公式 / Identity|条件 / Conditions|
+|---|---|
+|$\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$|—|
+|$\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B$|—|
+|$\tan(A\pm B)=\dfrac{\tan A\pm\tan B}{1\mp\tan A\tan B}$|分母$\ne0$ / denominator $\ne0$|
+
+## 二倍角 / Double-Angle
+
+|公式 / Identity|等价形式 / Equivalent forms|
+|---|---|
+|$\sin(2x)=2\sin x\cos x$|—|
+|$\cos(2x)=\cos^2x-\sin^2x$|$=1-2\sin^2x=2\cos^2x-1$|
+|$\tan(2x)=\dfrac{2\tan x}{1-\tan^2x}$|分母$\ne0$ / denominator $\ne0$|
+
+## 三倍角 / Triple-Angle
+
+|公式 / Identity|说明 / Notes|
+|---|---|
+|$\sin(3x)=3\sin x-4\sin^3x$|—|
+|$\cos(3x)=4\cos^3x-3\cos x$|—|
+|若$t=\tan x$，则$\tan(3x)=\dfrac{3t-t^3}{1-3t^2}$|分母$\ne0$ / denominator $\ne0$|
+
+## 半角公式 / Half-Angle
+
+为避免正负号混乱，常用平方形式；若需要$\sin\frac{x}{2},\cos\frac{x}{2}$本身，请按象限取符号。  
+To avoid sign ambiguity, squared forms are used; if you need $\sin\frac{x}{2}$ or $\cos\frac{x}{2}$ themselves, choose signs by quadrant.
+
+|公式 / Identity|条件 / Conditions|
+|---|---|
+|$\sin^2\frac{x}{2}=\dfrac{1-\cos x}{2}$|—|
+|$\cos^2\frac{x}{2}=\dfrac{1+\cos x}{2}$|—|
+|$\tan\frac{x}{2}=\dfrac{\sin x}{1+\cos x}=\dfrac{1-\cos x}{\sin x}$|分母$\ne0$ / denominator $\ne0$|
+
+## 降幂（平方角）/ Power-Reduction (Square-Angle)
+
+“平方角公式”常用于把$\sin^2x,\cos^2x$转成含$2x$的一次三角函数，从而配合积分或化简。  
+Power-reduction identities rewrite $\sin^2x,\cos^2x$ into first powers of trig functions in $2x$, useful for integrals and simplification.
+
+|公式 / Identity|等价形式 / Equivalent forms|
+|---|---|
+|$\sin^2x=\dfrac{1-\cos(2x)}{2}$|—|
+|$\cos^2x=\dfrac{1+\cos(2x)}{2}$|—|
+|$\sin x\cos x=\dfrac{1}{2}\sin(2x)$|—|
+
+## 和差化积 / Sum-to-Product
+
+|公式 / Identity|说明 / Notes|
+|---|---|
+|$\sin A+\sin B=2\sin\frac{A+B}{2}\cos\frac{A-B}{2}$|—|
+|$\sin A-\sin B=2\cos\frac{A+B}{2}\sin\frac{A-B}{2}$|—|
+|$\cos A+\cos B=2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$|—|
+|$\cos A-\cos B=-2\sin\frac{A+B}{2}\sin\frac{A-B}{2}$|—|
+
+## 积化和差 / Product-to-Sum
+
+|公式 / Identity|说明 / Notes|
+|---|---|
+|$\sin A\sin B=\dfrac{1}{2}\bigl(\cos(A-B)-\cos(A+B)\bigr)$|—|
+|$\cos A\cos B=\dfrac{1}{2}\bigl(\cos(A-B)+\cos(A+B)\bigr)$|—|
+|$\sin A\cos B=\dfrac{1}{2}\bigl(\sin(A+B)+\sin(A-B)\bigr)$|—|
+|$\cos A\sin B=\dfrac{1}{2}\bigl(\sin(A+B)-\sin(A-B)\bigr)$|—|
+
+## 辅助角（线性组合合并）/ Auxiliary Angle (Combine $a\sin x+b\cos x$)
+
+当题目出现$a\sin x+b\cos x$时，常把它写成单一正弦/余弦，便于求极值、解方程或积分。  
+When you see $a\sin x+b\cos x$, rewrite it as a single sine/cosine to simplify extrema, equations, or integrals.
+
+令$R=\sqrt{a^2+b^2}$，取$\varphi$使得$\cos\varphi=\frac{a}{R}$、$\sin\varphi=\frac{b}{R}$，则：  
+Let $R=\sqrt{a^2+b^2}$ and choose $\varphi$ such that $\cos\varphi=\frac{a}{R}$ and $\sin\varphi=\frac{b}{R}$, then:
+
+$$
+a\sin x+b\cos x=R\sin(x+\varphi)=R\cos(x-\varphi).
+$$
+
+## 万能代换（魏尔施特拉斯代换）/ Weierstrass Substitution
+
+当积分是$\sin x,\cos x$的有理函数时，令$t=\tan\frac{x}{2}$常能把三角积分变成有理函数积分。  
+For rational functions of $\sin x$ and $\cos x$, the substitution $t=\tan\frac{x}{2}$ often converts trig integrals into rational integrals.
+
+$$
+t=\tan\frac{x}{2},\quad
+\sin x=\frac{2t}{1+t^2},\quad
+\cos x=\frac{1-t^2}{1+t^2},\quad
+dx=\frac{2}{1+t^2}\,dt.
+$$
+
+## 复指数与多倍角 / Complex Exponential & Multiple-Angle
+
+用欧拉公式可以快速推导多倍角、积化和差等恒等式，并在求和题里尤其好用。  
+Euler’s formula quickly derives multiple-angle and product-sum identities, and is especially handy for trigonometric sums.
+
+$$
+e^{ix}=\cos x+i\sin x,\quad
+\cos x=\frac{e^{ix}+e^{-ix}}{2},\quad
+\sin x=\frac{e^{ix}-e^{-ix}}{2i}.
+$$
+
+棣莫弗公式：  
+De Moivre’s formula:
+
+$$
+(\cos x+i\sin x)^n=\cos(nx)+i\sin(nx).
+$$
+
+## 等差角求和 / Sums over Arithmetic Progressions
+
+当角是$a,a+d,a+2d,\dots$时，$\sum\sin$与$\sum\cos$可以用封闭形式表达。  
+For angles in arithmetic progression $a,a+d,a+2d,\dots$, $\sum\sin$ and $\sum\cos$ have closed forms.
+
+$$
+\sum_{k=0}^{n-1}\cos(a+kd)=\frac{\sin\frac{nd}{2}}{\sin\frac{d}{2}}\cos\Bigl(a+\frac{(n-1)d}{2}\Bigr),
+$$
+
+$$
+\sum_{k=0}^{n-1}\sin(a+kd)=\frac{\sin\frac{nd}{2}}{\sin\frac{d}{2}}\sin\Bigl(a+\frac{(n-1)d}{2}\Bigr),
+$$
+
+其中$\sin\frac{d}{2}\ne0$。  
+where $\sin\frac{d}{2}\ne0$.
+
+## 相关笔记 / Related Notes
+
+- 三角函数基础：[[Math_Calculus/1.Precalculus/trigonometric_functions]] / Basics: [[Math_Calculus/1.Precalculus/trigonometric_functions]]
+- 反三角函数：[[Math_Calculus/1.Precalculus/inverse_trigonometric_functions]] / Inverse trig: [[Math_Calculus/1.Precalculus/inverse_trigonometric_functions]]
+- 三角幂积分诱导：[[Math_Calculus/4.Integrals/reduction_formulas]] / Trig-power reduction integrals: [[Math_Calculus/4.Integrals/reduction_formulas]]
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[//end]: # "Autogenerated link references"

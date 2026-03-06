@@ -41,6 +41,9 @@
 - 维度直觉 / Dimension intuition：若$T:\mathbb{R}^2\to\mathbb{R}^3$是线性变换，像集$\operatorname{range}(T)$是$\mathbb{R}^3$中的一个过原点的子空间（常见是平面或直线），因此通常不可能等于整个$\mathbb{R}^3$（不满射）。  
   For a linear map $T:\mathbb{R}^2\to\mathbb{R}^3$, the range is a subspace through the origin (often a plane or a line), so it typically cannot be all of $\mathbb{R}^3$ (not onto).
 
+- 几何图像 / Geometric picture：在线性变换下，定义域中的整张网格会整体“拉伸/旋转/剪切”到陪域中的子空间里。  
+  Under a linear transformation, the whole grid in the domain is transformed (stretch/rotate/shear) into a subspace of the codomain.
+
 - 等维情形 / Equal-dimension case：当$T:\mathbb{R}^n\to\mathbb{R}^n$时，线性变换满足“单射$\Leftrightarrow$满射$\Leftrightarrow$可逆”。  
   For $T:\mathbb{R}^n\to\mathbb{R}^n$, we have injective $\Leftrightarrow$ surjective $\Leftrightarrow$ invertible.
 

@@ -13,10 +13,103 @@
   (AB)_{ij}=\sum_{k=1}^na_{ik}b_{kj}.
   $$
 
-- 列视角 / Column view：把$B$写成列块$B=[\mathbf b_1,\dots,\mathbf b_p]$，则  
-  Writing $B$ in columns $B=[\mathbf b_1,\dots,\mathbf b_p]$, we have
+- 常见维度直接公式 / Direct formulas for common sizes：
+  1) $2\times2\cdot2\times2\to2\times2$
+  $$
+  \begin{bmatrix}
+  a_{11}&a_{12}\\
+  a_{21}&a_{22}
+  \end{bmatrix}
+  \begin{bmatrix}
+  b_{11}&b_{12}\\
+  b_{21}&b_{22}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+  a_{11}b_{11}+a_{12}b_{21}&a_{11}b_{12}+a_{12}b_{22}\\
+  a_{21}b_{11}+a_{22}b_{21}&a_{21}b_{12}+a_{22}b_{22}
+  \end{bmatrix}.
+  $$
+
+  2) $2\times3\cdot3\times2\to2\times2$
+  $$
+  \begin{bmatrix}
+  a_{11}&a_{12}&a_{13}\\
+  a_{21}&a_{22}&a_{23}
+  \end{bmatrix}
+  \begin{bmatrix}
+  b_{11}&b_{12}\\
+  b_{21}&b_{22}\\
+  b_{31}&b_{32}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+  a_{11}b_{11}+a_{12}b_{21}+a_{13}b_{31}&a_{11}b_{12}+a_{12}b_{22}+a_{13}b_{32}\\
+  a_{21}b_{11}+a_{22}b_{21}+a_{23}b_{31}&a_{21}b_{12}+a_{22}b_{22}+a_{23}b_{32}
+  \end{bmatrix}.
+  $$
+
+  3) $3\times2\cdot2\times3\to3\times3$
+  $$
+  \begin{bmatrix}
+  a_{11}&a_{12}\\
+  a_{21}&a_{22}\\
+  a_{31}&a_{32}
+  \end{bmatrix}
+  \begin{bmatrix}
+  b_{11}&b_{12}&b_{13}\\
+  b_{21}&b_{22}&b_{23}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+  a_{11}b_{11}+a_{12}b_{21}&a_{11}b_{12}+a_{12}b_{22}&a_{11}b_{13}+a_{12}b_{23}\\
+  a_{21}b_{11}+a_{22}b_{21}&a_{21}b_{12}+a_{22}b_{22}&a_{21}b_{13}+a_{22}b_{23}\\
+  a_{31}b_{11}+a_{32}b_{21}&a_{31}b_{12}+a_{32}b_{22}&a_{31}b_{13}+a_{32}b_{23}
+  \end{bmatrix}.
+  $$
+
+  4) $3\times3\cdot3\times3\to3\times3$
+  $$
+  \begin{bmatrix}
+  a_{11}&a_{12}&a_{13}\\
+  a_{21}&a_{22}&a_{23}\\
+  a_{31}&a_{32}&a_{33}
+  \end{bmatrix}
+  \begin{bmatrix}
+  b_{11}&b_{12}&b_{13}\\
+  b_{21}&b_{22}&b_{23}\\
+  b_{31}&b_{32}&b_{33}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+  c_{11}&c_{12}&c_{13}\\
+  c_{21}&c_{22}&c_{23}\\
+  c_{31}&c_{32}&c_{33}
+  \end{bmatrix},
+  $$
+  其中/where
+  $$
+  \begin{aligned}
+  c_{11}&=a_{11}b_{11}+a_{12}b_{21}+a_{13}b_{31},&c_{12}&=a_{11}b_{12}+a_{12}b_{22}+a_{13}b_{32},&c_{13}&=a_{11}b_{13}+a_{12}b_{23}+a_{13}b_{33},\\
+  c_{21}&=a_{21}b_{11}+a_{22}b_{21}+a_{23}b_{31},&c_{22}&=a_{21}b_{12}+a_{22}b_{22}+a_{23}b_{32},&c_{23}&=a_{21}b_{13}+a_{22}b_{23}+a_{23}b_{33},\\
+  c_{31}&=a_{31}b_{11}+a_{32}b_{21}+a_{33}b_{31},&c_{32}&=a_{31}b_{12}+a_{32}b_{22}+a_{33}b_{32},&c_{33}&=a_{31}b_{13}+a_{32}b_{23}+a_{33}b_{33}.
+  \end{aligned}
+  $$
+
+- 按列推导 / Column-based derivation：把$B$写成列块$B=[\mathbf b_1,\dots,\mathbf b_p]$，则  
+  Write $B$ as column blocks $B=[\mathbf b_1,\dots,\mathbf b_p]$, then
   $$
   AB=[A\mathbf b_1,\dots,A\mathbf b_p].
+  $$
+  对第$j$列，$\mathbf b_j=\sum_{k=1}^nb_{kj}\mathbf e_k$，所以  
+  For the $j$-th column, $\mathbf b_j=\sum_{k=1}^nb_{kj}\mathbf e_k$, so
+  $$
+  A\mathbf b_j=A\Bigl(\sum_{k=1}^nb_{kj}\mathbf e_k\Bigr)=\sum_{k=1}^nb_{kj}A\mathbf e_k=\sum_{k=1}^nb_{kj}\mathbf a_k,
+  $$
+  其中$\mathbf a_k$是$A$的第$k$列。取第$i$个分量就得  
+  where $\mathbf a_k$ is the $k$-th column of $A$. Taking the $i$-th component gives
+  $$
+  (AB)_{ij}=\sum_{k=1}^na_{ik}b_{kj}.
   $$
 
 - 复合顺序 / Composition order：若$T(\mathbf x)=B\mathbf x$且$S(\mathbf y)=A\mathbf y$，则  

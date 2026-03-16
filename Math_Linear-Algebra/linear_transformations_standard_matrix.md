@@ -73,6 +73,8 @@
   Composition & order: [[Math_Linear-Algebra/matrix_multiplication_composition]].
 - 主元与$rref$ / Pivots & $rref$：[[Math_Linear-Algebra/gauss_jordan_elimination]]。  
   Pivots & $rref$: [[Math_Linear-Algebra/gauss_jordan_elimination]].
+- 行列式与可逆性 / Determinants & invertibility：[[Math_Linear-Algebra/determinant_laplace_properties]]。  
+  Determinants & invertibility: [[Math_Linear-Algebra/determinant_laplace_properties]].
 
 ## 来源 / Source
 - 来源 / Source: [[journal/2026-02-16]]  

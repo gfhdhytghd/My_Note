@@ -74,6 +74,10 @@ $$
 ## 关联笔记 / Related Notes
 - 延伸：[[journal/2026-01-14]]（行变换三种操作）。  
   Related: [[journal/2026-01-14]] (the three row operations).
+- 零空间与解集参数化：[[Math_Linear-Algebra/null_space_column_space_solution_sets]]。  
+  Null space and parametric solution sets: [[Math_Linear-Algebra/null_space_column_space_solution_sets]].
+- 增广矩阵求逆：[[Math_Linear-Algebra/matrix_inverse_gauss_jordan]]。  
+  Inverse from augmented matrix: [[Math_Linear-Algebra/matrix_inverse_gauss_jordan]].
 
 ## 来源 / Source
 - 来源 / Source: [[journal/2026-01-16]]  

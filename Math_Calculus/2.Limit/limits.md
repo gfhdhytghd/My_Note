@@ -104,6 +104,7 @@ When function values increase or decrease without bound, the limit is infinity o
 - [[Math/1.Precalculus/functions_basics]] - 函数基础
 - [[Math/1.Precalculus/trigonometric_functions]] - 三角函数
 - [[Math/1.Precalculus/exponential_functions]] - 指数函数
+- [[Math_Calculus/2.Limit/sequences_convergence]] - 数列与收敛 / Sequences and convergence
 - [[limit_theorems]] - 极限定理
 - [[squeeze_theorem_trigonometric]] - 三角函数的夹逼定理
 - [[derivatives_basics]] - 导数定义与记号 / Derivative basics

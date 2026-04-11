@@ -111,6 +111,8 @@ Example 2 (projection): with $v=(2,1)$ and $u=(1,0)$ (a unit vector), the scalar
 ## 关联笔记 / Related Notes
 - 向量、内积、投影：[[Math_Linear-Algebra/vector_and_euclidean_space]]。  
   Vectors, inner products, projection: [[Math_Linear-Algebra/vector_and_euclidean_space]].
+- 换基与坐标变换：[[Math_Linear-Algebra/change_of_basis_coordinates]]。  
+  Change of basis and coordinate conversion: [[Math_Linear-Algebra/change_of_basis_coordinates]].
 - 行变换求解$Ax=b$：[[Math_Linear-Algebra/gauss_jordan_elimination]]。  
   Row reduction for $Ax=b$: [[Math_Linear-Algebra/gauss_jordan_elimination]].
 

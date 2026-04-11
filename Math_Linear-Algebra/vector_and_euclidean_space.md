@@ -132,6 +132,10 @@ These properties ensure $\|x\|$ behaves like “length” and $d(x,y)$ behaves l
 ## 关联笔记 / Related Notes
 - 物理里的向量直觉与点积/叉积：[[Physics/1.Vectors/vectors_and_scalars]]。  
   Physics intuition (dot/cross products): [[Physics/1.Vectors/vectors_and_scalars]].
+- 基与维数：[[Math_Linear-Algebra/basis_and_dimension]]。  
+  Basis and dimension: [[Math_Linear-Algebra/basis_and_dimension]].
+- 换基与坐标变换：[[Math_Linear-Algebra/change_of_basis_coordinates]]。  
+  Change of basis and coordinate conversion: [[Math_Linear-Algebra/change_of_basis_coordinates]].
 - 线性方程组与向量表示：[[Math_Linear-Algebra/gauss_jordan_elimination]]。  
   Linear systems as vectors: [[Math_Linear-Algebra/gauss_jordan_elimination]].
 

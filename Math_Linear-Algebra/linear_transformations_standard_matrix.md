@@ -7,6 +7,19 @@
 - 若$T:\mathbb{R}^n\to\mathbb{R}^m$是线性变换，存在矩阵$A\in\mathbb{R}^{m\times n}$使得对任意$\mathbf x$都有$T(\mathbf x)=A\mathbf x$。  
   If $T:\mathbb{R}^n\to\mathbb{R}^m$ is linear, there exists $A\in\mathbb{R}^{m\times n}$ such that $T(\mathbf x)=A\mathbf x$ for all $\mathbf x$.
 
+## 基本术语 / Basic Terms
+- 定义域（domain）：输入向量所在的空间。  
+  Domain: the space where input vectors live.
+- 陪域（codomain）：题目声明的目标输出空间。  
+  Codomain: the declared target output space.
+- 某个向量的像（image of a vector）：$T(\mathbf v)$。  
+  Image of a specific vector: $T(\mathbf v)$.
+- 值域（range / image of $T$）：所有可能输出的集合$\{T(\mathbf x)\mid \mathbf x\in\operatorname{domain}(T)\}$。  
+  Range (or image of $T$): the set of all possible outputs $\{T(\mathbf x)\mid \mathbf x\in\operatorname{domain}(T)\}$.
+
+- 永远有$\operatorname{range}(T)\subseteq\operatorname{codomain}(T)$；当且仅当两者相等时，$T$才是满射（onto）。  
+  We always have $\operatorname{range}(T)\subseteq\operatorname{codomain}(T)$; $T$ is onto exactly when these two sets are equal.
+
 ## 关键结论 / Key Results
 - 标准矩阵 / Standard matrix：若$A$是$T$的标准矩阵，则  
   If $A$ is the standard matrix of $T$, then
@@ -77,6 +90,10 @@
   Determinants & invertibility: [[Math_Linear-Algebra/determinant_laplace_properties]].
 
 ## 来源 / Source
+- 来源 / Source: [[journal/2026-02-11]]  
+  Source journal: [[journal/2026-02-11]]
+- 来源 / Source: [[journal/2026-02-13]]  
+  Source journal: [[journal/2026-02-13]]
 - 来源 / Source: [[journal/2026-02-16]]  
   Source journal: [[journal/2026-02-16]]
 

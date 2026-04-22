@@ -46,7 +46,23 @@ To determine whether an infinite series $\sum a_n$ converges, first rule out for
 - 若$L=1$，此判别法无效，不能据此断定级数条件收敛。  
   If $L=1$, the ratio test is inconclusive and does not imply conditional convergence.
 
-## 5. 积分判别法 / Integral Test
+## 5. 根判别法 / Root Test
+- 当$a_n$整体带有$n$次幂、可写成$(b_n)^n$，或每项都像“某个表达式的$n$次方”时，根判别法通常最直接。  
+  When $a_n$ has an overall $n$th-power structure, can be written as $(b_n)^n$, or looks like “an expression raised to the $n$th power,” the root test is usually the cleanest choice.
+- 若
+  $$
+  L=\lim_{n\to\infty}\sqrt[n]{|a_n|},
+  $$
+  则当$L<1$时，$\sum a_n$绝对收敛；当$L>1$或$L=\infty$时，$\sum a_n$发散。  
+  If
+  $$
+  L=\lim_{n\to\infty}\sqrt[n]{|a_n|},
+  $$
+  then $\sum a_n$ converges absolutely when $L<1$, and diverges when $L>1$ or $L=\infty$.
+- 若$L=1$，此判别法无效；当整项呈$n$次方结构时，它通常比比值判别更快。  
+  If $L=1$, the root test is inconclusive; when the whole term has an $n$th-power form, it is often faster than the ratio test.
+
+## 6. 积分判别法 / Integral Test
 - 若$a_n=f(n)$，并且$f(x)$在$x\geq1$上满足正、连续、单调递减，则
   $$
   \sum a_n\quad\text{与}\quad\int_1^\infty f(x)\,dx
@@ -67,7 +83,9 @@ To determine whether an infinite series $\sum a_n$ converges, first rule out for
    Then inspect the form; for expressions like $\frac{1}{n^p}$, $\frac{1}{n\ln n}$, or rational functions, comparison-based tests are usually best.
 3. 若出现$n!$、$c^n$，或相邻项相除后能明显化简，优先尝试比值判别法。  
    If factorials, exponential terms, or strong cancellation in $\frac{a_{n+1}}{a_n}$ appear, try the ratio test first.
-4. 若能自然写成正、连续、递减的$f(n)$，可转去做积分判别。  
+4. 若整项可写成$(b_n)^n$，或整体带有$n$次幂结构，优先尝试根判别法。  
+   If the whole term can be written as $(b_n)^n$ or has an overall $n$th-power form, try the root test first.
+5. 若能自然写成正、连续、递减的$f(n)$，可转去做积分判别。  
    If the terms naturally come from a positive, continuous, decreasing function $f(n)$, the integral test is a strong option.
 
 ## 易错点 / Common Pitfall

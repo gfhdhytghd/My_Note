@@ -2,7 +2,7 @@
 
 > 归档范围 / Archive scope：Canvas 课程 `2487353`（2268 - 202627FA，`Math 230 FA26 Pooley`）。
 >
-> 本页根据 Canvas 的 **Course Information** 模块、已禁用的 Canvas Syllabus 页面和该模块下的政策网页整理；更新日期为 2026-08-25。
+> 本页根据 Canvas 的 **Course Information**、**Slides** 模块、已禁用的 Canvas Syllabus 页面和政策网页整理；更新日期为 2026-08-26。
 
 ## 课程入口 / Course entry points
 
@@ -14,8 +14,11 @@
 
 | 类型 / Type | 名称 / Title | 本地归档 / Local archive |
 | --- | --- | --- |
-| 课程大纲附件 / department syllabus attachment | `MATH 230 Department Syllabus 2026-2027.pdf` | 见 [[Courses/2026_fall/math_230/files/attachment_manifest]] 的下载状态 |
-| 课程日程附件 / course schedule attachment | `MATH 230 Fall 2026 Schedule.docx` | 见 [[Courses/2026_fall/math_230/files/attachment_manifest]] 的下载状态 |
+| 课程大纲附件 / department syllabus attachment | `MATH 230 Department Syllabus 2026-2027.pdf` | [已下载 PDF](files/math_230_department_syllabus_2026_2027.pdf) |
+| 课程日程附件 / course schedule attachment | `MATH 230 Fall 2026 Schedule.docx` | [已下载 DOCX](files/math_230_fall_2026_schedule.docx) |
+| 教师大纲 / instructor syllabus | `Instructor_Syllabus.pdf` | [已下载 PDF](files/instructor_syllabus.pdf) |
+| 讲义 / slides | `Section 12.1 - Vectors (1).pdf` | [已下载 PDF](files/section_12_1_vectors.pdf) |
+| 讲义 / slides | `Section 12.2 - Surfaces, Vectors, and Curves (1).pdf` | [已下载 PDF](files/section_12_2_surfaces_vectors_and_curves.pdf) |
 | 考试政策 / exam policy | Makeup Exam Policies | [[Courses/2026_fall/math_230/files/makeup_exam_policies]] |
 | 无障碍安排 / accommodations | SDR Accommodations and Process | [[Courses/2026_fall/math_230/files/sdr_accommodations_process]] |
 | MyLab 使用要求 / access requirement | Access MyLab Math from Canvas | [[Courses/2026_fall/math_230/files/mylab_math_access]] |
@@ -38,4 +41,4 @@ Canvas 的已禁用 Syllabus 页面仍列出如下评分组；该表不是部门
 
 - Canvas 的正式 Syllabus 页面已禁用；课程大纲以模块附件为准。The formal Canvas Syllabus page is disabled, so the module attachment remains the authoritative syllabus.
 - `LA Evening Session Schedule` 是 Course Information 后的资源页面，但 Canvas 页面正文为空，未作为课程要求归档。The linked LA Evening Session Schedule page is empty in Canvas and is not treated as a course requirement.
-- 两份附件的名称、文件大小、Canvas 来源和本机下载验证均记录在 [[Courses/2026_fall/math_230/files/attachment_manifest]]。The attachment manifest records source metadata and the local-download verification result.
+- 五份已发布附件的名称、文件大小、Canvas 来源和本机下载验证均记录在 [[Courses/2026_fall/math_230/files/attachment_manifest]]。The attachment manifest records source metadata and local verification for the five published files.

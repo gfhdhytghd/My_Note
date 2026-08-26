@@ -1,16 +1,19 @@
 # MATH 230 附件清单与下载状态 / Attachment manifest and download status
 
-> 来源 / Source：Canvas Course Information 模块，课程 `2487353`；采集日期 / captured 2026-08-25。
+> 来源 / Source：Canvas 课程 `2487353`；采集日期 / captured 2026-08-26。
 
 ## 课程附件 / Course attachments
 
 | 文件 / File | Canvas 来源 / Canvas source | 大小 / Size | 本机状态 / Local status |
 | --- | --- | ---: | --- |
-| `MATH 230 Department Syllabus 2026-2027.pdf` | <https://psu.instructure.com/courses/2487353/files/194249631> | 241 KB | Canvas 下载已触发；当前工作区及可访问下载目录未出现可复制的二进制文件，因此未把“已下载”误报为完成。 |
-| `MATH 230 Fall 2026 Schedule.docx` | <https://psu.instructure.com/courses/2487353/files/194245646> | 27 KB | 已识别为 Course Information 模块附件；同样未在本机可访问下载目录中出现二进制文件。 |
+| [math_230_department_syllabus_2026_2027.pdf](math_230_department_syllabus_2026_2027.pdf) | <https://psu.instructure.com/courses/2487353/files/194249631> | 247,121 bytes | 已下载并验证为 14 页 PDF / Downloaded and verified as a 14-page PDF |
+| [math_230_fall_2026_schedule.docx](math_230_fall_2026_schedule.docx) | <https://psu.instructure.com/courses/2487353/files/194245646> | 27,696 bytes | 已下载并验证为 Microsoft Word 2007+ / Downloaded and verified as Microsoft Word 2007+ |
+| [instructor_syllabus.pdf](instructor_syllabus.pdf) | <https://psu.instructure.com/courses/2487353/files/194650466> | 134,369 bytes | 已下载并验证为 PDF / Downloaded and verified as PDF |
+| [section_12_1_vectors.pdf](section_12_1_vectors.pdf) | <https://psu.instructure.com/courses/2487353/files/194641630> | 217,754 bytes | 已下载并验证为 PDF / Downloaded and verified as PDF |
+| [section_12_2_surfaces_vectors_and_curves.pdf](section_12_2_surfaces_vectors_and_curves.pdf) | <https://psu.instructure.com/courses/2487353/files/194641629> | 559,854 bytes | 已下载并验证为 PDF / Downloaded and verified as PDF |
 
 ## 说明 / Notes
 
-- 两个附件都是该模块中仅有的“附件 / File”项目。The two rows above are the only items shown as files in Course Information.
-- 下载链接需要已登录 Canvas 会话；本次通过 Chrome 已验证其可见和可触发。The download links require the signed-in Canvas session and were verified in Chrome.
+- 前三项来自 Course Information，后两项来自 Slides 模块。The first three files come from Course Information, and the last two come from Slides.
+- 下载链接需要已登录 Canvas 会话；以上五项均已通过 Chrome 下载并在工作区完成文件类型与大小验证。The links require the signed-in Canvas session; all five files were downloaded through Chrome and verified locally for type and size.
 - 网页形式的政策与要求没有伪造为附件，已分别结构化保存为 Markdown。Web-only policies and requirements are archived separately as structured Markdown rather than being mislabelled as attachments.

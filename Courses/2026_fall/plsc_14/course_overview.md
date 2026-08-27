@@ -9,7 +9,7 @@
 - 地点 / Location：105 Forum Building
 - Canvas 课程 / Canvas course：[PLSC 14](https://psu.instructure.com/courses/2478621)
 - Canvas 大纲 / Canvas syllabus：[Course Syllabus](https://psu.instructure.com/courses/2478621/assignments/syllabus)
-- 检查时间 / Reviewed：2026-08-25
+- 检查时间 / Reviewed：2026-08-27
 
 ## 课程说明 / Course Description
 
@@ -57,9 +57,9 @@ The course introduces world politics and the global economy, covering major acto
 
 ## 已归档文件 / Archived Files
 
-Canvas 大纲以内嵌网页形式提供，检查时未发现独立的大纲、课程要求或政策附件，因此本页保存其结构化快照；讲义幻灯片不属于本次归档范围。
+Canvas 大纲以内嵌网页形式提供，检查时未发现独立的大纲、课程要求或政策附件，因此本页保存其结构化快照。第一周讲义已保存原始 PowerPoint，并完成双语 Markdown 转写及图片提取：[[Courses/2026_fall/plsc_14/lecture_slides/week_01_interests_interactions_institutions/week_01_interests_interactions_institutions|利益、互动与制度 / Interests, Interactions, and Institutions]]。
 
-The syllabus is provided as an embedded Canvas page. No separate syllabus, requirements, or policy attachment was found at review time, so this page preserves a structured snapshot. Lecture slides are outside this archive’s scope.
+The syllabus is provided as an embedded Canvas page. No separate syllabus, requirements, or policy attachment was found at review time, so this page preserves a structured snapshot. The original Week 1 PowerPoint is archived, with a bilingual Markdown transcription and extracted images linked above.
 
 ## 来源 / Source
 

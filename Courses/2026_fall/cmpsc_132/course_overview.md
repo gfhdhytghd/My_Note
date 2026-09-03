@@ -10,9 +10,9 @@
 
 ## 当前可用资料 / Currently Available Materials
 
-课程日程已归档为 [[Courses/2026_fall/cmpsc_132/files/course_schedule]]，包含每周主题、作业截止日期与三次考试日期。 / The course schedule is archived at [[Courses/2026_fall/cmpsc_132/files/course_schedule]], including weekly topics, assignment deadlines, and all three exam dates.
+课程日程已归档为 [[Courses/2026_fall/cmpsc_132/files/course_schedule]]；当前 Canvas syllabus 概览见 [[Courses/2026_fall/cmpsc_132/files/syllabus]]，原文转录见 [[Courses/2026_fall/cmpsc_132/files/syllabus_original]]。 / The course schedule is archived at [[Courses/2026_fall/cmpsc_132/files/course_schedule]], with a summary at [[Courses/2026_fall/cmpsc_132/files/syllabus]] and the original transcription at [[Courses/2026_fall/cmpsc_132/files/syllabus_original]].
 
-Canvas 当前开放 `Academic Integrity in EECS` 与 `Module 0. Getting Started`；独立 Syllabus 页面仍被禁用，Assignments 页面没有可读取的条目，也未发现可下载的课程附件。 / Canvas currently exposes Academic Integrity in EECS and Module 0 Getting Started. The standalone Syllabus page remains disabled, the Assignments page exposes no readable entries, and no downloadable course attachment was found.
+Canvas 当前可读取完整 Syllabus 页面、`Academic Integrity in EECS` 与 `Module 0. Getting Started`；完整 syllabus 主体原文已保存至 `syllabus_original.md`。 / Canvas currently exposes the full Syllabus page, Academic Integrity in EECS, and Module 0 Getting Started; the full syllabus body transcription is saved in `syllabus_original.md`.
 
 ## 考试安排 / Exam Schedule
 
@@ -26,7 +26,6 @@ Exam 1 位于 OpenAI DevDay（2026-09-29）的次日。 / Exam 1 is the day afte
 
 ## 待补资料 / Pending Materials
 
-- 完整课程大纲与评分构成 / Full syllabus and grading scheme
 - 教师、助教与 office hours 完整信息 / Complete instructor, TA, and office-hours information
 - 后续发布的讲义、实验、作业与模块资料 / Later lecture, lab, assignment, and module materials
 - 原始附件（如之后发布）/ Original attachments, if later published

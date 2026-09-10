@@ -41,7 +41,7 @@ where $P(x)$ and $Q(x)$ are polynomials, and $Q(x) \neq 0$.
    - 定义域：$x \neq 1, -1$  
    - Domain: $x \neq 1, -1$
 
-**相关笔记 / Related Notes：** 来源于 [[2025-08-29]]
+**相关笔记 / Related Notes：** 来源于 [[Daily Notes/2025-08-29]]
 
 
 

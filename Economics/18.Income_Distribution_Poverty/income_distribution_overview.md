@@ -24,4 +24,4 @@
 - 例子：秘书、托育、幼教、口腔卫生员 vs 技术员、水管工、机修工；Examples include secretaries/childcare/preschool teachers/dental hygienists vs technicians/plumbers/mechanics.
 - 收入不平等：自由市场环境下仍会存在收入不均；Income inequality persists even in free-market systems.
 
-来源 / Source：[[journal/2025-12-01]] · [[journal/2025-12-03]]
+来源 / Source：[[Daily Notes/2025-12-01]] · [[Daily Notes/2025-12-03]]

@@ -47,7 +47,7 @@ The domain of $(f \circ g)(x)$ consists of all $x$ values such that:
 1. $x$ is in the domain of $g$
 2. $g(x)$ is in the domain of $f$
 
-**相关笔记 / Related Notes：** 来源于 [[2025-08-29]]
+**相关笔记 / Related Notes：** 来源于 [[Daily Notes/2025-08-29]]
 
 
 

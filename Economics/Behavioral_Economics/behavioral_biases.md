@@ -24,4 +24,4 @@
 ## 关联 / Related
 - 行为经济学总览：[[Economics/Behavioral_Economics/overview]]
 
-来源 / Source：[[journal/2025-11-20]]
+来源 / Source：[[Daily Notes/2025-11-20]]

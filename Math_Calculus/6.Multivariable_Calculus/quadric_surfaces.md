@@ -1,28 +1,6 @@
-# 2026-09-14
+# 二次曲面与截痕 / Quadric Surfaces and Traces
 
-## Math 230：椭圆与二次曲面考试复习 / Ellipses and Quadric Surfaces Exam Review
-
-本节整理本次题目涉及的标准式、曲面识别、配方、截痕与截距。前置笔记：[[Daily Notes/2026-09-11]]；课程入口：[[Courses/2026_fall/math_230/course_overview]]。 / This section reviews standard forms, surface identification, completing the square, traces, and intercepts from these problems. Prerequisite notes: [[Daily Notes/2026-09-11]]; course entry: [[Courses/2026_fall/math_230/course_overview]].
-
-### 1. 二维椭圆：轴长、顶点与焦点 / Ellipses: Axes, Vertices, and Foci
-
-规定 $a>b>0$，$a$ 是长半轴，$b$ 是短半轴，$c$ 是中心到焦点的距离。长轴长为 $2a$，短轴长为 $2b$；较大的分母决定长轴方向。 / Let $a>b>0$, with semimajor axis $a$, semiminor axis $b$, and center-to-focus distance $c$. The full axis lengths are $2a$ and $2b$; the larger denominator determines the major-axis direction.
-
-| 项目 / Feature | 长轴水平 / Horizontal major axis | 长轴竖直 / Vertical major axis |
-| --- | --- | --- |
-| 标准式 / Standard form | $\dfrac{(x-h)^2}{a^2}+\dfrac{(y-k)^2}{b^2}=1$ | $\dfrac{(x-h)^2}{b^2}+\dfrac{(y-k)^2}{a^2}=1$ |
-| 中心 / Center | $(h,k)$ | $(h,k)$ |
-| 长轴顶点 / Major-axis vertices | $(h\pm a,k)$ | $(h,k\pm a)$ |
-| 短轴端点 / Minor-axis endpoints | $(h,k\pm b)$ | $(h\pm b,k)$ |
-| 焦点 / Foci | $(h\pm c,k)$ | $(h,k\pm c)$ |
-
-椭圆与双曲线的焦距公式不要混淆： / Distinguish the focal-distance formulas for ellipses and hyperbolas:
-
-$$\boxed{c^2=a^2-b^2\quad\text{(ellipse)}},\qquad\boxed{c^2=a^2+b^2\quad\text{(hyperbola)}}$$
-
-**例题：**$\dfrac{x^2}{49}+\dfrac{y^2}{4}=1$ 的长轴沿 $x$ 方向，$a=7,b=2,c=3\sqrt5$。长、短轴长分别为 $14,4$；长轴顶点为 $(\pm7,0)$，短轴端点为 $(0,\pm2)$，焦点为 $(\pm3\sqrt5,0)$。 / **Example:** For $\dfrac{x^2}{49}+\dfrac{y^2}{4}=1$, the major axis is along $x$, and $a=7,b=2,c=3\sqrt5$. The full axis lengths are $14,4$; major-axis vertices are $(\pm7,0)$, minor-axis endpoints are $(0,\pm2)$, and foci are $(\pm3\sqrt5,0)$.
-
-### 2. 二次曲面速查表 / Quadric Surface Identification
+## 二次曲面速查表 / Quadric Surface Identification
 
 二次曲面由三变量的二次方程描述。以下速判适用于**已配方、坐标轴与主轴对齐且无交叉项**的标准式，表中 $a,b,c>0$。含 $xy,xz,yz$ 等交叉项时，可能需要旋转坐标。 / A quadric surface is described by a quadratic equation in three variables. These shortcuts apply to **completed-square standard forms with aligned axes and no mixed terms**, with $a,b,c>0$. Mixed terms such as $xy,xz,yz$ may require a coordinate rotation.
 
@@ -38,7 +16,7 @@ $$\boxed{c^2=a^2-b^2\quad\text{(ellipse)}},\qquad\boxed{c^2=a^2+b^2\quad\text{(h
 
 **先把非零右端归一化为 $1$，再数正负号。**例如 $x^2+y^2-z^2=-1$ 应改成 $z^2-x^2-y^2=1$，所以是双叶双曲面。正平方项之和等于 $0$ 可能只有一个点，等于负数则无实点，不能直接判成椭球面。 / **Normalize a nonzero right-hand side to $1$ before counting signs.** For example, $x^2+y^2-z^2=-1$ becomes $z^2-x^2-y^2=1$, a two-sheet hyperboloid. A sum of positive squared terms equal to zero may give a single point; equal to a negative number, it has no real points, rather than an ellipsoid.
 
-### 3. 柱面：缺哪个变量就沿哪个方向延伸 / Cylinders: The Missing Variable Gives the Direction
+## 柱面：缺哪个变量就沿哪个方向延伸 / Cylinders: The Missing Variable Gives the Direction
 
 方程不含某个变量，表示沿该坐标方向平移不改变解集；当剩下两个变量描述非退化曲线时，就得到相应柱面。缺变量本身也可能对应退化集合或空集，仍需检查截面。 / If an equation omits a variable, translation along that coordinate direction preserves its solution set. A nondegenerate curve in the remaining variables generates a cylinder. Missing variables can also occur in degenerate or empty sets, so inspect the cross-section.
 
@@ -51,7 +29,7 @@ $$\boxed{c^2=a^2-b^2\quad\text{(ellipse)}},\qquad\boxed{c^2=a^2+b^2\quad\text{(h
 
 若垂直于延伸方向的截面是圆，则是圆柱面；例如 $y^2+z^2=1$。 / If the cross-section perpendicular to the extension direction is a circle, the surface is a circular cylinder; for example, $y^2+z^2=1$.
 
-#### 课堂补充：二次柱面的分类 / Class Supplement: Quadratic Cylinders
+### 课堂补充：二次柱面的分类 / Class Supplement: Quadratic Cylinders
 
 课堂投影片列出直圆柱面、椭圆柱面、双曲柱面和抛物柱面。按非退化圆锥曲线截面分类，通常分为椭圆、双曲和抛物三大类，圆柱面是椭圆柱面的特殊情况；因此投影片写“三类”但列出四项，可以按这个包含关系理解。 / The lecture slide lists right circular, elliptic, hyperbolic, and parabolic cylinders. Classification by nondegenerate conic cross-sections gives three main families: elliptic, hyperbolic, and parabolic, with circular cylinders as a special elliptic case. This inclusion explains how the slide's “three types” can be reconciled with its four listed entries.
 
@@ -68,7 +46,7 @@ $$\boxed{c^2=a^2-b^2\quad\text{(ellipse)}},\qquad\boxed{c^2=a^2+b^2\quad\text{(h
 - **延伸方向与截面开口方向不同：**$y=Ax^2$ 缺少 $z$，所以柱面沿 $z$ 延伸；$\pm y$ 描述的是抛物线截面的开口方向。 / **Extension and cross-section opening are different directions:** $y=Ax^2$ omits $z$, so the cylinder extends along $z$; $\pm y$ describes the opening of its parabolic cross-section.
 - **抛物柱面与抛物面：**$z=x^2$ 缺少 $y$，是沿 $y$ 延伸的抛物柱面；$z=x^2+y^2$ 是椭圆抛物面；$z=x^2-y^2$ 是双曲抛物面。 / **Parabolic cylinder versus paraboloids:** $z=x^2$ omits $y$ and is a parabolic cylinder extending along $y$; $z=x^2+y^2$ is an elliptic paraboloid; $z=x^2-y^2$ is a hyperbolic paraboloid.
 
-### 4. 抛物面与锥面例题 / Paraboloid and Cone Examples
+## 抛物面与锥面例题 / Paraboloid and Cone Examples
 
 **椭圆抛物面：**$z=x^2+49y^2$ 的顶点为 $(0,0,0)$，因为右侧非负，故 $z\ge0$，向 $+z$ 开口；$z=-x^2-49y^2$ 则向 $-z$ 开口。 / **Elliptic paraboloid:** $z=x^2+49y^2$ has vertex $(0,0,0)$. Its nonnegative right side implies $z\ge0$, so it opens toward $+z$; $z=-x^2-49y^2$ opens toward $-z$.
 
@@ -86,7 +64,7 @@ $$z=\pm\sqrt{x^2+49y^2}$$
 
 关键对比：$z=x^2+y^2$ 是抛物面，$z^2=x^2+y^2$ 是锥面；看第三个变量是一次还是平方。 / Key contrast: $z=x^2+y^2$ is a paraboloid, whereas $z^2=x^2+y^2$ is a cone; check whether the third variable is linear or squared.
 
-### 5. 椭球面、配方与轴长 / Ellipsoids, Completing the Square, and Axis Lengths
+## 椭球面、配方与轴长 / Ellipsoids, Completing the Square, and Axis Lengths
 
 椭球面的中心为 $(h,k,l)$，沿三个坐标方向的半轴为 $a,b,c>0$，完整轴长为 $2a,2b,2c$。 / An ellipsoid has center $(h,k,l)$, semiaxes $a,b,c>0$ along the coordinate directions, and full axis lengths $2a,2b,2c$.
 
@@ -110,7 +88,7 @@ $$\boxed{\frac{(x+8)^2}{1}+\frac{y^2}{1}+\frac{z^2}{1/3}=1}$$
 - 半轴：$a_x=1,a_y=1,a_z=1/\sqrt3$。 / Semiaxes: $a_x=1,a_y=1,a_z=1/\sqrt3$.
 - 完整轴长：$2,2,2/\sqrt3$。分母是半轴的平方；例如分母为 $25$，半轴为 $5$，完整轴长为 $10$。 / Full axis lengths: $2,2,2/\sqrt3$. Each denominator is a squared semiaxis; a denominator of $25$ means a semiaxis of $5$ and full axis length of $10$.
 
-### 6. 坐标轴截距 / Coordinate-Axis Intercepts
+## 坐标轴截距 / Coordinate-Axis Intercepts
 
 求哪条轴的截点，就把另外两个变量设为零；答案最好写成三维坐标。 / To find intercepts on an axis, set the other two variables to zero; preferably give the answers as three-dimensional points.
 
@@ -122,7 +100,7 @@ $$\boxed{\frac{(x+8)^2}{1}+\frac{y^2}{1}+\frac{z^2}{1/3}=1}$$
 
 平移后的半轴端点不一定在坐标轴上。例如上一节椭球面的 $x$ 轴截点为 $(-9,0,0),(-7,0,0)$，但没有 $y$ 或 $z$ 轴截点，因为令 $x=0$ 后左侧至少为 $64>1$。 / After translation, semiaxis endpoints need not lie on the coordinate axes. The previous ellipsoid has $x$-intercepts $(-9,0,0),(-7,0,0)$, but no $y$- or $z$-intercepts, because setting $x=0$ makes its left side at least $64>1$.
 
-### 7. 截痕与退化情形 / Traces and Degenerate Cases
+## 截痕与退化情形 / Traces and Degenerate Cases
 
 截痕是曲面与平面的交集；坐标平面截痕是其中的特殊情形，也可取 $z=t$ 等平行平面。截痕不一定是一条曲线，还可能是一个点、直线、两条直线或空集。 / A trace is the intersection of a surface with a plane. Coordinate-plane traces are special cases; parallel planes such as $z=t$ are also useful. A trace need not be a curve: it may be a point, a line, two lines, or the empty set.
 
@@ -150,7 +128,7 @@ $$\boxed{\frac{(x+8)^2}{1}+\frac{y^2}{1}+\frac{z^2}{1/3}=1}$$
 | $x^2+y^2=-1$ | 空集，无截痕 / Empty set; no trace |
 | $x^2-y^2=0$ | 两条相交直线 $y=\pm x,\ z=0$ / Two intersecting lines |
 
-### 8. 单叶、双叶与锥面比较 / One Sheet, Two Sheets, and Cones
+## 单叶、双叶与锥面比较 / One Sheet, Two Sheets, and Cones
 
 以下通过水平截痕比较三种曲面；$a,b,c>0$。这些曲面的轴沿 $z$，但只有 $a=b$ 时才绕该轴旋转对称。 / Compare these surfaces through horizontal traces, with $a,b,c>0$. Their axes are along $z$, but they have rotational symmetry about that axis only when $a=b$.
 
@@ -164,7 +142,7 @@ $$\boxed{\frac{(x+8)^2}{1}+\frac{y^2}{1}+\frac{z^2}{1/3}=1}$$
 
 $$\underbrace{x^2+y^2-z^2=0}_{\text{cone}},\qquad\underbrace{x^2+y^2-z^2=1}_{\text{one sheet}},\qquad\underbrace{z^2-x^2-y^2=1}_{\text{two sheets}}$$
 
-### 9. 特殊情况、中心与顶点 / Special Cases, Centers, and Vertices
+## 特殊情况、中心与顶点 / Special Cases, Centers, and Vertices
 
 - **球面是椭球面的特殊情况：**三个半轴都等于 $r>0$。 / **A sphere is a special ellipsoid:** all three semiaxes equal $r>0$.
 
@@ -174,7 +152,7 @@ $$(x-h)^2+(y-k)^2+(z-l)^2=r^2\quad\Longleftrightarrow\quad\frac{(x-h)^2}{r^2}+\f
 - **中心与顶点：**椭球面和双曲面用中心描述平移位置；椭圆抛物面用顶点，锥面用锥顶，双曲抛物面可用鞍点描述。双叶双曲面还各有一个顶点。 / **Centers and vertices:** centers describe translations of ellipsoids and hyperboloids; elliptic paraboloids have a vertex, cones have an apex, and hyperbolic paraboloids have a saddle point. A two-sheet hyperboloid also has one vertex on each sheet.
 - **读平移坐标：**$(x-h)^2$ 对应坐标 $h$，所以 $(x+8)^2$ 对应 $-8$。例如 $z=(x-2)^2+(y+3)^2+5$ 的顶点是 $(2,-3,5)$。 / **Reading translations:** $(x-h)^2$ corresponds to coordinate $h$, so $(x+8)^2$ corresponds to $-8$. For example, $z=(x-2)^2+(y+3)^2+5$ has vertex $(2,-3,5)$.
 
-### 10. 考场解题顺序 / Exam Workflow
+## 考场解题顺序 / Exam Workflow
 
 1. **整理与配方：**移项、分组、配方；非零常数右端归一化为 $1$。 / **Rearrange and complete squares:** collect terms, complete squares, and normalize a nonzero constant right-hand side to $1$.
 2. **识别类型：**查缺失变量、一次变量、平方项数量及符号，同时排除空集或退化情况。 / **Identify the type:** inspect missing variables, linear variables, and the number and signs of squared terms; check for empty or degenerate cases.
@@ -182,10 +160,14 @@ $$(x-h)^2+(y-k)^2+(z-l)^2=r^2\quad\Longleftrightarrow\quad\frac{(x-h)^2}{r^2}+\f
 4. **求截痕与截点：**坐标平面设一个变量为零，坐标轴设另外两个为零；检查是否有实解。 / **Find traces and intercepts:** set one variable to zero for a coordinate plane and the other two for an axis; check for real solutions.
 5. **复核易错点：**椭圆 $c^2=a^2-b^2$；$z$ 与 $z^2$ 区分抛物面和锥面；右端 $0$ 与 $1$ 区分锥面和双曲面。 / **Check common pitfalls:** ellipses use $c^2=a^2-b^2$; distinguish $z$ from $z^2$ for paraboloids versus cones, and right-hand sides $0$ versus $1$ for cones versus hyperboloids.
 
-## 学科整理 / Subject Notes
+## 相关笔记 / Related Notes
 
-- [[Math_Calculus/6.Multivariable_Calculus/conic_sections]] — 圆锥曲线 / Conic Sections
-- [[Math_Calculus/6.Multivariable_Calculus/quadric_surfaces]] — 二次曲面与截痕 / Quadric Surfaces and Traces
+- [[Math_Calculus/6.Multivariable_Calculus/conic_sections]] — 圆锥曲线基础 / Conic prerequisites
+- [[Math_Calculus/6.Multivariable_Calculus/traces_and_contour_maps]] — 截线与等高线 / Traces and contours
+
+## 来源 / Sources
+
+- [[Daily Notes/2026-09-14]] — 课堂记录 / Class notes
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [//end]: # "Autogenerated link references"

@@ -1,5 +1,23 @@
 # 电场与连续电荷分布 / Electric Fields and Continuous Charge Distributions
 
+## 物理量与符号定义 / Physical Quantities and Symbols
+
+以下按“符号—定义—SI 单位”查阅；电荷和电荷密度保留正负号，下标 $i,f$ 表示初态、末态，$\Delta$ 表示末值减初值。 / Read each entry as symbol, definition, and SI unit; charges and charge densities retain their signs, subscripts $i,f$ mean initial and final, and $\Delta$ means final minus initial.
+
+| 符号 / Symbol | 定义与含义 / Definition and meaning | SI 单位 / SI unit |
+| --- | --- | --- |
+| $q,Q$ | 电荷量：物体所带电荷的代数值，可正可负；具体所指由题目确定。 / Electric charge: the signed charge of an object; its role depends on context. | $\mathrm C$ |
+| $\vec F$ | 电场力：电荷在外电场中受到的力，$\vec F=q\vec E$。 / Electric force on a charge in an external field, $\vec F=q\vec E$. | $\mathrm N$ |
+| $\vec E,E$ | 电场为单位试探电荷所受的电场力，$\vec E=\vec F/q$（试探电荷不扰动原场）；$E=\|\vec E\|\geq0$ 是大小。 / Electric field is force per unit test charge that does not disturb the source field; $E$ is its nonnegative magnitude. | $\mathrm{N/C}=\mathrm{V/m}$ |
+| $E_r,E_x,E_\perp$ | 电场沿径向、$x$ 轴、表面法向的有符号分量；$E_r=\vec E\cdot\hat r$，$E_\perp=\vec E\cdot\hat n$。 / Signed radial, $x$, and surface-normal field components. | $\mathrm{N/C}$ |
+| $\epsilon_0,k$ | $\epsilon_0$ 为真空介电常数，约 $8.85\times10^{-12}\,\mathrm{C^2/(N\,m^2)}$；$k=1/(4\pi\epsilon_0)$ 为库仑常数，约 $8.99\times10^9\,\mathrm{N\,m^2/C^2}$。 / Vacuum permittivity and Coulomb's constant, respectively. | 分别如左 / As given |
+| $\lambda$ | 线电荷密度：单位长度上的电荷，$\lambda=dQ/d\ell$；均匀时 $\lambda=Q/L$。 / Linear charge density: charge per unit length; $Q/L$ when uniform. | $\mathrm{C/m}$ |
+| $\sigma$ | 面电荷密度：单位面积上的电荷，$\sigma=dQ/dA$；均匀时 $\sigma=Q/A$。 / Surface charge density: charge per unit area; $Q/A$ when uniform. | $\mathrm{C/m^2}$ |
+| $\rho,\rho_0$ | 体电荷密度：单位体积上的电荷，$\rho=dQ/d\mathcal V$；$\rho_0$ 表示均匀的常量密度。 / Volume charge density: charge per unit volume; $\rho_0$ denotes a uniform constant density. | $\mathrm{C/m^3}$ |
+| $r,R$ | $r$ 为观察点到球心或轴线的距离；$R$ 为带电球或球壳的固定半径。 / $r$ is the observation distance from the center or axis; $R$ is the fixed sphere or shell radius. | $\mathrm m$ |
+| $L,W,d,x$ | $L$ 为长度（如高斯柱面长度），$W$ 为矩形宽度，$d$ 为板间距，$x$ 为位置坐标。 / Length, rectangle width, plate separation, and position coordinate, respectively. | $\mathrm m$ |
+| $A,\mathcal V$ | $A$ 为面积（如柱盒单个端面面积），$\mathcal V$ 为体积；用 $\mathcal V$ 区别于电势 $V$。 / Area, such as one pillbox face, and volume; $\mathcal V$ distinguishes volume from potential $V$. | $\mathrm{m^2},\mathrm{m^3}$ |
+
 默认静电场、真空或可近似为真空的空气；无限平面与无限长圆柱模型忽略边缘效应。$E=\|\vec E\|$ 为大小，$E_r$ 为向外取正的径向分量，$k=1/(4\pi\epsilon_0)$。 / Assume electrostatics in vacuum or approximately vacuum-like air; infinite-sheet and infinite-cylinder models neglect edge effects. $E=\|\vec E\|$ is the magnitude, $E_r$ is the signed outward radial component, and $k=1/(4\pi\epsilon_0)$.
 
 ## 电场的定义 / Definition of the Electric Field

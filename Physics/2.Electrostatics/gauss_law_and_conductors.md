@@ -1,5 +1,35 @@
 # 高斯定律、对称电场与导体 / Gauss’s Law, Symmetric Fields, and Conductors
 
+## 物理量与符号定义 / Physical Quantities and Symbols
+
+以下按“符号—定义—SI 单位”查阅；电荷和电荷密度保留正负号，下标 $i,f$ 表示初态、末态，$\Delta$ 表示末值减初值。 / Read each entry as symbol, definition, and SI unit; charges and charge densities retain their signs, subscripts $i,f$ mean initial and final, and $\Delta$ means final minus initial.
+
+| 符号 / Symbol | 定义与含义 / Definition and meaning | SI 单位 / SI unit |
+| --- | --- | --- |
+| $q,Q$ | 电荷量：物体所带电荷的代数值，可正可负；具体所指由题目确定。 / Electric charge: the signed charge of an object; its role depends on context. | $\mathrm C$ |
+| $\vec F$ | 电场力：电荷在外电场中受到的力，$\vec F=q\vec E$。 / Electric force on a charge in an external field, $\vec F=q\vec E$. | $\mathrm N$ |
+| $\vec E,E$ | 电场为单位试探电荷所受的电场力，$\vec E=\vec F/q$（试探电荷不扰动原场）；$E=\|\vec E\|\geq0$ 是大小。 / Electric field is force per unit test charge that does not disturb the source field; $E$ is its nonnegative magnitude. | $\mathrm{N/C}=\mathrm{V/m}$ |
+| $E_r,E_x,E_\perp$ | 电场沿径向、$x$ 轴、表面法向的有符号分量；$E_r=\vec E\cdot\hat r$，$E_\perp=\vec E\cdot\hat n$。 / Signed radial, $x$, and surface-normal field components. | $\mathrm{N/C}$ |
+| $\epsilon_0,k$ | $\epsilon_0$ 为真空介电常数，约 $8.85\times10^{-12}\,\mathrm{C^2/(N\,m^2)}$；$k=1/(4\pi\epsilon_0)$ 为库仑常数，约 $8.99\times10^9\,\mathrm{N\,m^2/C^2}$。 / Vacuum permittivity and Coulomb's constant, respectively. | 分别如左 / As given |
+| $\lambda$ | 线电荷密度：单位长度上的电荷，$\lambda=dQ/d\ell$；均匀时 $\lambda=Q/L$。 / Linear charge density: charge per unit length; $Q/L$ when uniform. | $\mathrm{C/m}$ |
+| $\sigma$ | 面电荷密度：单位面积上的电荷，$\sigma=dQ/dA$；均匀时 $\sigma=Q/A$。 / Surface charge density: charge per unit area; $Q/A$ when uniform. | $\mathrm{C/m^2}$ |
+| $\rho,\rho_0$ | 体电荷密度：单位体积上的电荷，$\rho=dQ/d\mathcal V$；$\rho_0$ 表示均匀的常量密度。 / Volume charge density: charge per unit volume; $\rho_0$ denotes a uniform constant density. | $\mathrm{C/m^3}$ |
+| $r,R$ | $r$ 为观察点到球心或轴线的距离；$R$ 为带电球或球壳的固定半径。 / $r$ is the observation distance from the center or axis; $R$ is the fixed sphere or shell radius. | $\mathrm m$ |
+| $L,W,d,x$ | $L$ 为长度（如高斯柱面长度），$W$ 为矩形宽度，$d$ 为板间距，$x$ 为位置坐标。 / Length, rectangle width, plate separation, and position coordinate, respectively. | $\mathrm m$ |
+| $A,\mathcal V$ | $A$ 为面积（如柱盒单个端面面积），$\mathcal V$ 为体积；用 $\mathcal V$ 区别于电势 $V$。 / Area, such as one pillbox face, and volume; $\mathcal V$ distinguishes volume from potential $V$. | $\mathrm{m^2},\mathrm{m^3}$ |
+| $Q_{\mathrm{enc}}$ | 高斯面包围的净电荷，即面内所有电荷的代数和；$Q_{\mathrm{enc}}(r)$ 表示它随高斯面半径变化。 / Net charge enclosed by a Gaussian surface; $Q_{\mathrm{enc}}(r)$ emphasizes dependence on its radius. | $\mathrm C$ |
+| $q$（空腔 / cavity） | 空腔内且不接触导体的物体所带的总电荷，不包含腔壁电荷。 / Total charge of objects inside the cavity without touching the conductor, excluding wall charge. | $\mathrm C$ |
+| $Q_{\mathrm{inner}},Q_{\mathrm{outer}},Q_{\mathrm{cond}}$ | 分别为导体内表面、外表面、导体本身的净电荷；$Q_{\mathrm{cond}}=Q_{\mathrm{inner}}+Q_{\mathrm{outer}}$，不计空腔物体的 $q$。 / Net inner-surface, outer-surface, and conductor charges; the conductor total excludes the cavity object's $q$. | $\mathrm C$ |
+| $Q_s$ | 指定壳或表面的总电荷：球壳题中是整层球壳电荷，圆柱题中是长度 $L$ 的指定侧面电荷。 / Total charge on the specified shell or surface: the entire spherical shell or a cylindrical surface segment of length $L$. | $\mathrm C$ |
+| $\Phi_E$ | 电通量：电场穿过曲面的有符号积分，$\Phi_E=\int_S\vec E\cdot d\vec A$；闭合面用 $\oint$。 / Electric flux: the signed surface integral of the field; $\oint$ denotes a closed surface. | $\mathrm{N\,m^2/C}$ |
+| $S,dA,d\vec A$ | $S$ 为积分曲面，$dA$ 为微小面积，$d\vec A=\hat n\,dA$ 为面积向量；闭合面的法向朝外。 / Integration surface, infinitesimal area, and vector area; closed-surface normals point outward. | $dA$: $\mathrm{m^2}$ |
+| $\hat r,\hat n$ | 单位向量：$\hat r$ 径向向外，$\hat n$ 沿选定法向；导体边界处从金属指向相邻空间。 / Unit vectors in the outward radial and chosen normal directions; at a conductor boundary the normal points from metal into adjacent space. | 无量纲 / Dimensionless |
+| $\theta$（通量 / flux） | 电场 $\vec E$ 与面积向量 $d\vec A$ 的夹角。 / Angle between the electric field and the vector area. | $\mathrm{rad}$ |
+| $d\Omega$ | 带方向的微小立体角，$d\Omega=(\hat r\cdot\hat n)dA/r^2$，此处 $r$ 从点电荷量起。 / Oriented infinitesimal solid angle, with $r$ measured from the point charge. | $\mathrm{sr}$ |
+| $r_a,r_b,r_c$ | 同轴模型中内棒半径、外管内半径、外管外半径，$r_a<r_b<r_c$。 / Inner-rod radius, tube inner radius, and tube outer radius. | $\mathrm m$ |
+| $\lambda_a,\lambda_b,\lambda_c,\lambda_{\mathrm{tube}},\lambda_s$ | 分别为内棒、外管内表面、外管外表面、整根外管以及某指定表面的单位轴向长度电荷；$\lambda_{\mathrm{tube}}=\lambda_b+\lambda_c$。 / Charge per unit axial length of the rod, tube inner surface, tube outer surface, whole tube, and a specified surface, respectively. | $\mathrm{C/m}$ |
+| $\sigma_a,\sigma_b,\sigma_c$ | 半径 $r_a,r_b,r_c$ 处各表面的面电荷密度；均匀时 $\sigma_j=\lambda_j/(2\pi r_j)$，$j=a,b,c$。 / Surface charge densities at the three radii; the stated relation assumes uniformity. | $\mathrm{C/m^2}$ |
+
 默认静电场、真空或可近似为真空的空气；无限平面与无限长圆柱模型忽略边缘效应。$E=\|\vec E\|$ 为大小，$E_r$ 为向外取正的径向分量，$k=1/(4\pi\epsilon_0)$。 / Assume electrostatics in vacuum or approximately vacuum-like air; infinite-sheet and infinite-cylinder models neglect edge effects. $E=\|\vec E\|$ is the magnitude, $E_r$ is the signed outward radial component, and $k=1/(4\pi\epsilon_0)$.
 
 ## 高斯定律与高斯面的选择 / Gauss's Law and Gaussian Surfaces
@@ -83,7 +113,7 @@ $$E_r(r)=\begin{cases}0,&r<R,\\kQ_s/r^2,&r>R.\end{cases}$$
 
 对线密度为 $\lambda$ 的无限长直线电荷，取半径 $r$、长度 $L$ 的同轴高斯柱面。电场径向，端盖无通量，侧面电场大小处处相同： / For an infinite straight line of density $\lambda$, choose a coaxial Gaussian cylinder of radius $r$ and length $L$. The radial field gives zero end-cap flux and a constant field magnitude on the curved surface:
 
-$$E_r(2\pi rL)=\frac{\lambda L}{\epsilon_0}\quad\Longrightarrow\quad\boxed{E_r=\frac{\lambda}{2\pi\epsilon_0r}},\qquad\boxed{E=\frac{|\lambda|}{2\pi\epsilon_0r}}.$$
+$$E_r\cdot(2\pi rL)=\frac{\lambda L}{\epsilon_0}\quad\Longrightarrow\quad\boxed{E_r=\frac{\lambda}{2\pi\epsilon_0r}},\qquad\boxed{E=\frac{|\lambda|}{2\pi\epsilon_0r}}.$$
 
 正线电荷向外，负线电荷向内，大小按 $1/r$ 衰减。原因是通量穿过的圆柱侧面积随 $r$ 增长，而球面面积随 $r^2$ 增长。 / Positive line charge gives an outward field and negative line charge an inward field, with magnitude proportional to $1/r$. The cylindrical flux area grows as $r$, whereas a spherical area grows as $r^2$.
 

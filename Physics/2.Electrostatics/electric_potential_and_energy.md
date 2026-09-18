@@ -1,5 +1,30 @@
 # 电势、电势能与带电粒子运动 / Electric Potential, Energy, and Charged-Particle Motion
 
+## 物理量与符号定义 / Physical Quantities and Symbols
+
+以下按“符号—定义—SI 单位”查阅；电荷和电荷密度保留正负号，下标 $i,f$ 表示初态、末态，$\Delta$ 表示末值减初值。 / Read each entry as symbol, definition, and SI unit; charges and charge densities retain their signs, subscripts $i,f$ mean initial and final, and $\Delta$ means final minus initial.
+
+| 符号 / Symbol | 定义与含义 / Definition and meaning | SI 单位 / SI unit |
+| --- | --- | --- |
+| $q,Q$ | 电荷量：物体所带电荷的代数值，可正可负；具体所指由题目确定。 / Electric charge: the signed charge of an object; its role depends on context. | $\mathrm C$ |
+| $\vec F$ | 电场力：电荷在外电场中受到的力，$\vec F=q\vec E$。 / Electric force on a charge in an external field, $\vec F=q\vec E$. | $\mathrm N$ |
+| $\vec E,E$ | 电场为单位试探电荷所受的电场力，$\vec E=\vec F/q$（试探电荷不扰动原场）；$E=\|\vec E\|\geq0$ 是大小。 / Electric field is force per unit test charge that does not disturb the source field; $E$ is its nonnegative magnitude. | $\mathrm{N/C}=\mathrm{V/m}$ |
+| $E_r,E_x,E_\perp$ | 电场沿径向、$x$ 轴、表面法向的有符号分量；$E_r=\vec E\cdot\hat r$，$E_\perp=\vec E\cdot\hat n$。 / Signed radial, $x$, and surface-normal field components. | $\mathrm{N/C}$ |
+| $\epsilon_0,k$ | $\epsilon_0$ 为真空介电常数，约 $8.85\times10^{-12}\,\mathrm{C^2/(N\,m^2)}$；$k=1/(4\pi\epsilon_0)$ 为库仑常数，约 $8.99\times10^9\,\mathrm{N\,m^2/C^2}$。 / Vacuum permittivity and Coulomb's constant, respectively. | 分别如左 / As given |
+| $r,R$ | $r$ 为观察点到球心或轴线的距离；$R$ 为带电球或球壳的固定半径。 / $r$ is the observation distance from the center or axis; $R$ is the fixed sphere or shell radius. | $\mathrm m$ |
+| $L,W,d,x$ | $L$ 为长度（如高斯柱面长度），$W$ 为矩形宽度，$d$ 为板间距，$x$ 为位置坐标。 / Length, rectangle width, plate separation, and position coordinate, respectively. | $\mathrm m$ |
+| $A,\mathcal V$ | $A$ 为面积（如柱盒单个端面面积），$\mathcal V$ 为体积；用 $\mathcal V$ 区别于电势 $V$。 / Area, such as one pillbox face, and volume; $\mathcal V$ distinguishes volume from potential $V$. | $\mathrm{m^2},\mathrm{m^3}$ |
+| $V,\Delta V$ | 电势是选定零点后单位试探电荷的电势能，$V=U/q$；电势差 $\Delta V=V_f-V_i$。 / Electric potential is potential energy per unit test charge for a chosen reference; potential difference is final minus initial potential. | $\mathrm V=\mathrm{J/C}$ |
+| $U,\Delta U$ | 电势能：电荷因处于外电场中而具有的势能，$U=qV$；$\Delta U=U_f-U_i=q\Delta V$。 / Electric potential energy of a charge in an external field and its change. | $\mathrm J$ |
+| $W_E$ | 电场力做的功，$W_E=\int_i^f\vec F\cdot d\vec\ell=-\Delta U$；它不是矩形宽度 $W$。 / Work done by the electric force, equal to the negative potential-energy change; distinct from rectangle width $W$. | $\mathrm J$ |
+| $K,\Delta K$ | 动能：运动所具有的能量；非相对论时 $K=\tfrac12mv^2$，$\Delta K=K_f-K_i$。 / Kinetic energy and its change; $K=\tfrac12mv^2$ at nonrelativistic speeds. | $\mathrm J$ |
+| $d\vec\ell,\nabla V$ | $d\vec\ell$ 为沿积分路径的微小位移；$\nabla V$ 为电势梯度，指向电势增长最快的方向，$\vec E=-\nabla V$。 / Infinitesimal path displacement and potential gradient, which points toward the fastest potential increase. | $\mathrm m,\mathrm{V/m}$ |
+| $m,m_e,m_p$ | 物体质量、电子质量、质子质量；$m_p/m_e\approx1836$。 / Object, electron, and proton masses; their proton-to-electron ratio is approximately 1836. | $\mathrm{kg}$ |
+| $v,v_i,v_f,v_e,v_p,c$ | 速率、初速率、末速率、电子速率、质子速率、真空光速；非相对论公式要求 $v\ll c$。 / Speed, initial and final speeds, electron and proton speeds, and vacuum light speed; nonrelativistic formulas require $v\ll c$. | $\mathrm{m/s}$ |
+| $T,g,mg$ | $T$ 为绳张力大小，$g$ 为重力加速度大小（地表附近约 $9.8\,\mathrm{m/s^2}$），$mg$ 为重力大小。 / Tension magnitude, gravitational acceleration magnitude, and weight magnitude. | $T,mg$: $\mathrm N$；$g$: $\mathrm{m/s^2}$ |
+| $\theta$（悬球 / suspended ball） | 绳与竖直方向的夹角大小；与通量公式中的夹角所指不同。 / Magnitude of the angle between the string and the vertical; distinct from the angle in the flux formula. | $\mathrm{rad}$ |
+| $E_{\mathrm{breakdown}},d_{\min},\lvert\Delta V\rvert_{\max}$ | 给定介质击穿场强、固定电压下的最小允许板间距、固定板间距下的最大允许电压大小。 / Specified breakdown field, minimum allowed gap at fixed voltage, and maximum allowed voltage magnitude at fixed gap. | $\mathrm{V/m},\mathrm m,\mathrm V$ |
+
 默认静电场、真空或可近似为真空的空气；无限平面与无限长圆柱模型忽略边缘效应。$E=\|\vec E\|$ 为大小，$E_r$ 为向外取正的径向分量，$k=1/(4\pi\epsilon_0)$。 / Assume electrostatics in vacuum or approximately vacuum-like air; infinite-sheet and infinite-cylinder models neglect edge effects. $E=\|\vec E\|$ is the magnitude, $E_r$ is the signed outward radial component, and $k=1/(4\pi\epsilon_0)$.
 
 ## 电势与电场方向 / Potential and Field Direction

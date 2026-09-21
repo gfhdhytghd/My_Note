@@ -14,6 +14,7 @@ def get_path(file_name):
     target_path = os.path.join(os.path.dirname(__file__), file_name)
     return target_path
 
+
 def rectangle(perimeter,area):
     """
         >>> rectangle(14, 10)
@@ -30,40 +31,79 @@ def rectangle(perimeter,area):
         False
     """
     #- YOUR CODE STARTS HERE
-    pass
+    if perimeter%2!=0:
+        return False
+    h=1
+    w=perimeter//2-h
+    while w*h < area and w*h >=0:
+        h+=1
+        w-=1
+    if w*h==area:
+        return int(w)
+    else:
+        return False
+
 
 
 def to_decimal(oct_num):
     """
-        >>> to_decimal(237) 
+        >>> to_decimal(237)
         159
-        >>> to_decimal(35) 
+        >>> to_decimal(35)
         29
-        >>> to_decimal(600) 
+        >>> to_decimal(600)
         384
-        >>> to_decimal(420) 
+        >>> to_decimal(420)
         272
     """
     #- YOUR CODE STARTS HERE
-    pass
-
+    dec_output=0
+    digit=0
+    while oct_num>0:
+        dec_output+=8**digit*(oct_num%10)
+        oct_num=oct_num//10
+        digit+=1
+    return dec_output
 
 
 def has_hoagie(num):
     """
-        >>> has_hoagie(737) 
+        >>> has_hoagie(737)
         True
-        >>> has_hoagie(35) 
+        >>> has_hoagie(35)
         False
-        >>> has_hoagie(-6060) 
+        >>> has_hoagie(-6060)
         True
-        >>> has_hoagie(-111) 
+        >>> has_hoagie(-111)
         True
-        >>> has_hoagie(6945) 
+        >>> has_hoagie(6945)
         False
     """
     #- YOUR CODE STARTS HERE
-    pass
+    num = abs(num)
+    while num >= 100:
+        if num%10==num//100%10:
+            return True
+        num = num//10
+    return False
+
+
+def to_identical(num_in):
+    """Removes consecutive repeated digits from a positive integer."""
+    num_in = abs(num_in)
+    num_out = 0
+    last_digit = -1
+    divisor = 1
+    while num_in // divisor >= 10:
+        divisor *= 10
+    while divisor > 0:
+        current_digit = num_in // divisor
+        num_in %= divisor
+        divisor //= 10
+        if current_digit != last_digit:
+            num_out = num_out * 10 + current_digit
+            last_digit = current_digit
+    return num_out
 
 
 def is_identical(num_1, num_2):
@@ -72,13 +112,13 @@ def is_identical(num_1, num_2):
         True
         >>> is_identical(7006600, 7706000)
         True
-        >>> is_identical(135, 765) 
+        >>> is_identical(135, 765)
         False
-        >>> is_identical(2023, 20) 
+        >>> is_identical(2023, 20)
         False
     """
+    return to_identical(num_1)==to_identical(num_2)
     #- YOUR CODE STARTS HERE
-    pass
 
 
 def hailstone(num):
@@ -95,8 +135,14 @@ def hailstone(num):
         [19, 58, 29, 88, 44, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
     """
     #- YOUR CODE STARTS HERE
-    pass
-
+    output_list=[num]
+    while num!=1:
+        if num%2==0:
+            num=num//2
+        else:
+            num=num*3+1
+        output_list.append(num)
+    return output_list
 
 
 def overloaded_add(d, key, value):
@@ -109,7 +155,12 @@ def overloaded_add(d, key, value):
         True
     """
     #- YOUR CODE STARTS HERE
-    pass
+    if key not in d:
+        d[key]=value
+    else:
+        if not isinstance(d[key],list):
+            d[key]=[d[key]]
+        d[key].append(value)
 
 
 def by_department(d):
@@ -126,7 +177,12 @@ def by_department(d):
         {'Sales': [{'emp_id': 1, 'name': 'John Doe', 'position': 'Manager'}], 'Finance': [{'emp_id': 2, 'name': 'Sara Miller', 'position': 'Budget Advisor'}, {'emp_id': 4, 'name': 'Bob Johnson', 'position': 'Analyst'}], 'Engineering': [{'emp_id': 3, 'name': 'Jane Smith', 'position': 'Engineer'}, {'emp_id': 5, 'name': 'Clark Wayne', 'position': 'Senior Developer'}]}
     """
     #- YOUR CODE STARTS HERE
-    pass
+    dict_by_department={}
+    for empid,employee in d.items():
+        if employee['department'] not in dict_by_department:
+            dict_by_department[employee['department']]=[]
+        dict_by_department[employee['department']].append({"emp_id":empid,"name":employee['name'],"position":employee['position']})
+    return dict_by_department
 
 
 def successors(file_name):
@@ -145,33 +201,57 @@ def successors(file_name):
         ['eat']
     """
     file_path = get_path(file_name)
-    with open(file_path, 'r') as file:   
+    with open(file_path, 'r') as file:
         contents = file.read()  # You might change .read() for .readlines() if it suits your implementation better
     # --- YOU CODE STARTS HERE
+    tokens=[]
+    current=''
+    for char in contents:
+        if char.isalnum():
+            current+=char
+        else:
+            if current!='':
+                tokens.append(current)
+                current=''
+            if char.strip()!='':
+                tokens.append(char)
+    if current!='':
+        tokens.append(current)
 
-
+    output_dict={'.':[]}
+    previous='.'
+    for token in tokens:
+        if previous not in output_dict:
+            output_dict[previous]=[]
+        if token not in output_dict[previous]:
+            output_dict[previous].append(token)
+        previous=token
+    return output_dict
 
 
 def addToTrie(trie, word):
     """
         The following dictionary represents the trie of the words "A", "I", "Apple":
             {'a' : {'word' : True, 'p' : {'p' : {'l' : {'e' : {'word' : True}}}}, 'i' : {'word' : True}}}}
-       
-        >>> trie_dict = {'a' : {'word' : True, 'p' : {'p' : {'l' : {'e' : {'word' : True}}}}, 'i' : {'word' : True}}} 
+
+        >>> trie_dict = {'a' : {'word' : True, 'p' : {'p' : {'l' : {'e' : {'word' : True}}}}, 'i' : {'word' : True}}}
         >>> addToTrie(trie_dict, 'art')
         >>> trie_dict
         {'a': {'word': True, 'p': {'p': {'l': {'e': {'word': True}}}}, 'i': {'word': True}, 'r': {'t': {'word': True}}}}
-        >>> addToTrie(trie_dict, 'moon') 
+        >>> addToTrie(trie_dict, 'moon')
         >>> trie_dict
         {'a': {'word': True, 'p': {'p': {'l': {'e': {'word': True}}}}, 'i': {'word': True}, 'r': {'t': {'word': True}}}, 'm': {'o': {'o': {'n': {'word': True}}}}}
     """
     #- YOUR CODE STARTS HERE
-    pass
-
+    for letter in word:
+        if letter not in trie:
+            trie[letter]={}
+        trie=trie[letter]
+    trie['word']=True
 
 
 def createDictionaryTrie(file_name):
-    """        
+    """
         >>> trie = createDictionaryTrie("words.txt")
         >>> trie == {'b': {'a': {'l': {'l': {'word': True}}, 't': {'s': {'word': True}}}, 'i': {'r': {'d': {'word': True}},\
                      'n': {'word': True}}, 'o': {'y': {'word': True}}}, 't': {'o': {'y': {'s': {'word': True}}},\
@@ -179,15 +259,18 @@ def createDictionaryTrie(file_name):
         True
     """
     file_path = get_path(file_name)
-    with open(file_path, 'r') as file:   
-        contents = file.read()  # You might change .read() for .readlines() if it suits your implementation better 
+    with open(file_path, 'r') as file:
+        contents = file.read()  # You might change .read() for .readlines() if it suits your implementation better
     #- YOUR CODE STARTS HERE
-
+    trie={}
+    for word in contents.split():
+        addToTrie(trie,word.lower())
+    return trie
 
 
 def wordExists(trie, word):
     """
-        >>> trie_dict = {'a' : {'word' : True, 'p' : {'p' : {'l' : {'e' : {'word' : True}}}}, 'i' : {'word' : True}}} 
+        >>> trie_dict = {'a' : {'word' : True, 'p' : {'p' : {'l' : {'e' : {'word' : True}}}}, 'i' : {'word' : True}}}
         >>> wordExists(trie_dict, 'armor')
         False
         >>> wordExists(trie_dict, 'apple')
@@ -202,18 +285,71 @@ def wordExists(trie, word):
         False
     """
     #- YOUR CODE STARTS HERE
-    pass
+    for letter in word:
+        if letter not in trie:
+            return False
+        trie=trie[letter]
+    return 'word' in trie
 
 
 
 
 def run_tests():
-    import doctest
-    # Run start tests in all docstrings
-    # doctest.testmod(verbose=True)
-    
-    # Run start tests per function - Uncomment the next line to run doctest by function. Replace rectangle with the name of the function you want to test
-    # doctest.run_docstring_examples(rectangle, globals(), name='HW1',verbose=True)   
+    """Runs additional normal and boundary tests for every required function."""
+    assert rectangle(14,10)==5
+    assert rectangle(4,1)==1
+    assert rectangle(7,3)==False
+
+    assert to_decimal(1)==1
+    assert to_decimal(10)==8
+    assert to_decimal(777)==511
+
+    assert has_hoagie(10)==False
+    assert has_hoagie(101)==True
+    assert has_hoagie(-12321)==True
+
+    assert is_identical(111,1)==True
+    assert is_identical(100,10)==True
+    assert is_identical(10,1)==False
+
+    assert hailstone(1)==[1]
+    assert hailstone(2)==[2,1]
+    assert hailstone(3)==[3,10,5,16,8,4,2,1]
+
+    d={}
+    overloaded_add(d,'x',1)
+    assert d=={'x':1}
+    overloaded_add(d,'x',2)
+    assert d=={'x':[1,2]}
+    overloaded_add(d,'x',3)
+    assert d=={'x':[1,2,3]}
+
+    employees={1:{'name':'A','position':'P','department':'D'}}
+    assert by_department({})=={}
+    assert by_department(employees)=={'D':[{'emp_id':1,'name':'A','position':'P'}]}
+    assert employees=={1:{'name':'A','position':'P','department':'D'}}
+
+    following=successors('items.txt')
+    assert following['.']==['We','Maybe']
+    assert following['to']==['learn','have','make']
+    assert following[',']==['eat']
+
+    trie={}
+    addToTrie(trie,'a')
+    assert trie=={'a':{'word':True}}
+    addToTrie(trie,'at')
+    assert wordExists(trie,'at')==True
+    addToTrie(trie,'dog')
+    assert wordExists(trie,'dog')==True
+
+    file_trie=createDictionaryTrie('list_of_words.txt')
+    assert wordExists(file_trie,'ball')==True
+    assert wordExists(file_trie,'treat')==True
+    assert wordExists(file_trie,'cat')==False
+
+    assert wordExists(trie,'a')==True
+    assert wordExists(trie,'app')==False
+    assert wordExists(trie,'dogs')==False
 
 if __name__ == "__main__":
     run_tests()

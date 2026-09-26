@@ -1,5 +1,8 @@
 # PLSC 14 国际关系 / International Relations
 
+- 学习专区与最新课件 / Study hub and latest slides：[[Courses/2026_fall/plsc_14/README]]
+- 截至第三周的复习整理 / Review through Week 3：[[journal/2026-09-10]]
+
 ## 课程信息 / Course Information
 
 - 学期 / Term：`2268 - 202627FA`

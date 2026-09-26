@@ -1,5 +1,19 @@
 # 原始文件 / Original Files
 
+## 2026-09-10 课件归档 / Lecture Archive
+
+本次从 Canvas 下载了当前发布的三份 PPT，已验证文件可读取。第一周框架课件与旧归档的逐页文本相同，但二进制文件不同，因此保留旧版并另存本次快照。 / All three currently published PPT decks were downloaded from Canvas and checked for readability. The framework deck has identical slide text to the older archive but different bytes, so both snapshots are retained.
+
+| 课件 / Deck | 页数 / Slides | 本地文件 / Local file | Canvas |
+| --- | --- | --- | --- |
+| 导论 / Introduction | 13 | [week_01_introduction.pptx](week_01_introduction.pptx) | [194642328](https://psu.instructure.com/courses/2478621/files/194642328) |
+| 利益、互动与制度 / Interests, Interactions, and Institutions | 39 | [week_01_interests_interactions_institutions_2026_09_10.pptx](week_01_interests_interactions_institutions_2026_09_10.pptx) | [195146132](https://psu.instructure.com/courses/2478621/files/195146132) |
+| 国际关系理论 / IR Theories | 21 | [week_03_ir_theories.pptx](week_03_ir_theories.pptx) | [195160531](https://psu.instructure.com/courses/2478621/files/195160531) |
+
+整理入口：[[Courses/2026_fall/plsc_14/README]]；来源日记：[[journal/2026-09-10]]。 / Organized notes: course hub; source daily review: September 10.
+
+## 先前归档 / Earlier Archive
+
 截至 2026-08-27，课程大纲、要求与政策均以内嵌 Canvas 页面提供，没有独立附件可下载。已归档第一周讲义原文件：
 
 - [week_01_interests_interactions_institutions.pptx](week_01_interests_interactions_institutions.pptx)

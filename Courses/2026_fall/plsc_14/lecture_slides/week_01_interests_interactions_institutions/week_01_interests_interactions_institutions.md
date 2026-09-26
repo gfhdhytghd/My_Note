@@ -6,6 +6,9 @@
 - Canvas 文件 / Canvas file：[Week1_Interests, Interactions and Institutions.pptx](https://psu.instructure.com/courses/2478621/files/194679767)
 - 转写日期 / Transcribed：2026-08-27
 
+- 2026-09-10 更新核对 / Updated check：当前 Canvas 文件为 [195146132](https://psu.instructure.com/courses/2478621/files/195146132)，39 页的逐页文本与本地旧 PPT 一致；[本次原文件快照](../../files/week_01_interests_interactions_institutions_2026_09_10.pptx)。 / The current Canvas file has the same slide text as the older local deck; the new binary snapshot is linked here.
+- 复习与归档来源 / Review and archive source：[[journal/2026-09-10]]；[[Courses/2026_fall/plsc_14/README|课程专区 / Course hub]]。
+
 > 本笔记按原课件的 39 张幻灯片逐页转写；中文是辅助译文，英文保留原意。课件中的信息性图片已提取到 `assets/`，表格与收益矩阵已转换为可检索的 Markdown 表格。
 >
 > This note follows all 39 source slides in order. Chinese text is an aid to reading, while the English preserves the source meaning. Informational images are extracted to `assets/`, and tables and payoff matrices are converted into searchable Markdown tables.

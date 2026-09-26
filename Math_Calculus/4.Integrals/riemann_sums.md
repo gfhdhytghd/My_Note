@@ -29,6 +29,6 @@ Summing function values times the subinterval width approximates the area under 
 As $n$ increases and $\Delta x\to0$, these sums connect to the definite integral $\int_a^b f(x)\,dx$.
 
 **来源 / Source**  
-[[journal/2025-12-01]]
+[[Daily Notes/2025-12-01]]
 
 

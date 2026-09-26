@@ -9,4 +9,4 @@
 - 人们会为避免潜在后悔而拒绝看似更优的交易，如拒绝高价转卖彩票；People reject seemingly better deals to avoid anticipated regret, e.g., refusing to sell a lottery ticket at a higher price.
 - 机制：预期的“要是当初……”带来心理成本，驱动保守选择；Anticipated “what if” regret acts as a psychological cost that pushes toward conservative choices.
 
-来源 / Source：[[journal/2025-12-01]]
+来源 / Source：[[Daily Notes/2025-12-01]]

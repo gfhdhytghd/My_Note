@@ -371,5 +371,5 @@ $$
 因此复合变换$T_A\circ T_B$对应矩阵$AB$，并且“先变换的矩阵写在右边、后变换的写在左边”。  
 So the composition $T_A\circ T_B$ corresponds to $AB$, and the matrix that acts first is on the right.
 
-对应日记：[[journal/2026-02-16]]。  
-Related daily note: [[journal/2026-02-16]].
+对应日记：[[Daily Notes/2026-02-16]]。  
+Related daily note: [[Daily Notes/2026-02-16]].

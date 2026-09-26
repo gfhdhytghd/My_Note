@@ -23,4 +23,4 @@
 - 期望值：[[Economics/17.Uncertainty_Asymmetric_Information/expected_value]]  
 - 效用与消费选择：[[Economics/6.Household_Behavior_Consumer_Choice/utility_and_consumer_choice]]
 
-来源 / Source：[[journal/2025-11-13]]
+来源 / Source：[[Daily Notes/2025-11-13]]

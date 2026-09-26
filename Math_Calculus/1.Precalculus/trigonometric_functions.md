@@ -83,7 +83,7 @@ $$
 c^2 = a^2 + b^2 - 2ab\cos C
 $$
 
-**相关笔记 / Related Notes：** 来源于 [[2025-08-29]]
+**相关笔记 / Related Notes：** 来源于 [[Daily Notes/2025-08-29]]
 
 
 

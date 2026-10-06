@@ -3,7 +3,7 @@ def calculate_diff(prev, curr):
 
 
 def group_by_department(employees):
-    output_dict = {}
+    output_dict = {}    
 
     for name, info in employees.items():
         if info["dept"] not in output_dict:
@@ -16,3 +16,18 @@ def group_by_department(employees):
         })
 
     return output_dict
+
+
+def group_by_department_comprehension(employees):
+    return {
+        dept: [
+            {
+                "emp_name": name,
+                "salary": info["salary"],
+                "role": info["role"],
+            }
+            for name, info in employees.items()
+            if info["dept"] == dept
+        ]
+        for dept in {info["dept"] for info in employees.values()}
+    }

@@ -73,6 +73,10 @@ The syllabus, requirements, and policies are embedded in the Canvas `Course Syll
 - [HibbelerPenn St.pdf](https://psu.instructure.com/courses/2482533/files/193688918)
 - [HW1Supplement.pdf](https://psu.instructure.com/courses/2482533/files/194095199)
 
+## 复习笔记 / Review Notes
+
+- [[Courses/2026_fall/emch_210/exam2_review]]：Exam 2 图解复习，涵盖框架与机械、三维平衡、摩擦和组合面积形心。 / Illustrated Exam 2 review covering frames and machines, spatial equilibrium, friction, and composite-area centroids.
+
 ## 每日笔记与学科关联 / Daily Notes and Subject Links
 
 - [[Daily Notes/2026-08-24]]：大纲与牛顿力学基础的简短记录，尚无详细推导。 / Brief syllabus and Newtonian-mechanics notes, without detailed derivations.

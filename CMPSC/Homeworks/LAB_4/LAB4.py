@@ -87,11 +87,19 @@ class Malloc_Library:
     def __getitem__(self, pos):
         # --- YOUR CODE STARTS HERE
         pass  # remove when starting implementation 
-    
+
 
     def malloc(self, size):
         # --- YOUR CODE STARTS HERE
-        pass  # remove when starting implementation 
+        self.head = None
+        current = None
+        for _ in range(size):
+            new_node = Node()
+            if self.head is None:
+                self.head = new_node
+            else:
+                current.next = new_node
+            current = new_node
 
 
     def calloc(self, size):

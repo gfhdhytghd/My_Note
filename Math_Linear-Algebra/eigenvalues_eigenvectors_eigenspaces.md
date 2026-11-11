@@ -179,6 +179,7 @@ The eigenvector associated with the largest eigenvalue is approximately in the d
 - 线性变换与标准矩阵 / Linear transformations and standard matrix: [[Math_Linear-Algebra/linear_transformations_standard_matrix]]
 - 行列式与可逆性 / Determinants and invertibility: [[Math_Linear-Algebra/determinant_laplace_properties]]
 - 矩阵求逆 / Matrix inverse: [[Math_Linear-Algebra/matrix_inverse_gauss_jordan]]
+- 轴向正应力 $\sigma=P/A$（应力的一维情形）/ Axial normal stress, the one-dimensional case of stress: [[Physics/3.Mechanics_of_Materials/axial_stress_strain_thermal]]
 
 ## 来源 / Source
 - 来源 / Source: [[Daily Notes/2026-03-27]]

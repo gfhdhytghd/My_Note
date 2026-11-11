@@ -76,6 +76,7 @@ The syllabus, requirements, and policies are embedded in the Canvas `Course Syll
 ## 复习笔记 / Review Notes
 
 - [[Courses/2026_fall/emch_210/exam2_review]]：Exam 2 图解复习，涵盖框架与机械、三维平衡、摩擦和组合面积形心。 / Illustrated Exam 2 review covering frames and machines, spatial equilibrium, friction, and composite-area centroids.
+- [[Physics/3.Mechanics_of_Materials/README]]：材料力学主题笔记——工程单位、轴向应力与热膨胀、圆轴扭转、梁的剪力与弯矩；整理自 2026-10-29 至 2026-11-02 的学习对话，见 [[Courses/2026_fall/recent_learning_review]]。 / Mechanics-of-materials topic notes on units, axial stress and thermal expansion, torsion, and beam shear and moment, compiled from study conversations dated 2026-10-29 to 2026-11-02.
 
 ## 每日笔记与学科关联 / Daily Notes and Subject Links
 

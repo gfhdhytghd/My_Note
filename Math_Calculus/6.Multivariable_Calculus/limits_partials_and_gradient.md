@@ -130,6 +130,7 @@ $$
 - [[Math_Calculus/6.Multivariable_Calculus/quadric_surfaces]] — 二次曲面与等值面示例 / Quadric surfaces and level-surface examples
 - [[Math_Calculus/6.Multivariable_Calculus/vector_valued_functions]] — 向量值函数与路径 / Vector-valued functions and paths
 - [[Math_Calculus/2.Limit/limits]] — 单变量极限基础 / Single-variable limit basics
+- [[Math_Calculus/6.Multivariable_Calculus/line_integrals_conservative_fields]] — 梯度场即保守场；Clairaut 定理给出判别条件 $P_y=Q_x$ / Gradient fields are conservative; Clairaut's theorem gives the test $P_y=Q_x$
 
 ## 来源 / Sources
 

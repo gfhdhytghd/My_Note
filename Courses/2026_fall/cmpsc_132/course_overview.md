@@ -24,6 +24,10 @@ Canvas 当前可读取完整 Syllabus 页面、`Academic Integrity in EECS` 与 
 
 Exam 1 位于 OpenAI DevDay（2026-09-29）的次日。 / Exam 1 is the day after OpenAI DevDay on September 29, 2026.
 
+## 学科笔记 / Subject Notes
+
+- [[CMPSC/6.Hash_Tables_and_Graphs/README]] — Module 6.2 哈希表与图：哈希冲突、BFS、Dijkstra 与 Kruskal；整理自 2026-10-29 至 2026-11-02 的学习对话与 `CMPSC/mod6.py`，见 [[Courses/2026_fall/recent_learning_review]]。 / Module 6.2 notes on hash collisions, BFS, Dijkstra, and Kruskal, compiled from study conversations dated 2026-10-29 to 2026-11-02 and `CMPSC/mod6.py`.
+
 ## 待补资料 / Pending Materials
 
 - 教师、助教与 office hours 完整信息 / Complete instructor, TA, and office-hours information

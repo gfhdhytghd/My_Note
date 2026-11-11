@@ -114,6 +114,7 @@ $$\boxed{\frac{v_e}{v_p}=\sqrt{\frac{m_p}{m_e}}\approx\sqrt{1836}\approx42.8}.$$
 
 - [[Physics/2.Electrostatics/gauss_law_and_conductors]] — 对称电场与导体 / Symmetric fields and conductors
 - [[Math_Calculus/6.Multivariable_Calculus/traces_and_contour_maps]] — 等高线与等势线 / Contours and equipotentials
+- [[Math_Calculus/6.Multivariable_Calculus/line_integrals_conservative_fields]] — 数学势 $\mathbf F=\nabla f$ 与物理约定 $\vec E=-\nabla V$ 的负号对照 / The sign contrast between $\mathbf F=\nabla f$ and $\vec E=-\nabla V$
 
 ## 来源 / Sources
 

@@ -80,6 +80,7 @@ $$
 
 - [[Math_Calculus/6.Multivariable_Calculus/lines_planes_and_distances]] — 直线与切线 / Lines and tangent lines
 - [[Math_Calculus/6.Multivariable_Calculus/velocity_and_acceleration]] — 运动与曲率 / Motion and curvature
+- [[Math_Calculus/6.Multivariable_Calculus/line_integrals_conservative_fields]] — 用参数化路径 $\mathbf r(t)$ 计算线积分 / Using a parametrized path $\mathbf r(t)$ to evaluate line integrals
 
 ## 来源 / Sources
 

@@ -164,6 +164,7 @@ $$(x-h)^2+(y-k)^2+(z-l)^2=r^2\quad\Longleftrightarrow\quad\frac{(x-h)^2}{r^2}+\f
 
 - [[Math_Calculus/6.Multivariable_Calculus/conic_sections]] — 圆锥曲线基础 / Conic prerequisites
 - [[Math_Calculus/6.Multivariable_Calculus/traces_and_contour_maps]] — 截线与等高线 / Traces and contours
+- [[Math_Calculus/6.Multivariable_Calculus/polar_cylindrical_spherical_integrals]] — 识别出球、圆柱后，用柱、球坐标设积分上下限 / After recognizing spheres and cylinders, set integral bounds in cylindrical or spherical coordinates
 
 ## 来源 / Sources
 

@@ -50,6 +50,7 @@ Signs alternate as $+,-,+$; choose rows/columns with more zeros for faster compu
 ## 关联笔记 / Related Notes
 - 矩阵求逆 / Matrix inverse: [[Math_Linear-Algebra/matrix_inverse_gauss_jordan]]
 - 线性变换可逆性 / Invertibility in transformations: [[Math_Linear-Algebra/linear_transformations_standard_matrix]]
+- 积分换元中的 Jacobian（行列式作为局部面积缩放）/ The Jacobian in change of variables (determinant as local area scaling): [[Math_Calculus/6.Multivariable_Calculus/change_of_variables_jacobian]]
 
 ## 来源 / Source
 - 来源 / Source: [[Daily Notes/2026-03-02]]

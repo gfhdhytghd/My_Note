@@ -88,6 +88,8 @@
   Pivots & $rref$: [[Math_Linear-Algebra/gauss_jordan_elimination]].
 - 行列式与可逆性 / Determinants & invertibility：[[Math_Linear-Algebra/determinant_laplace_properties]]。  
   Determinants & invertibility: [[Math_Linear-Algebra/determinant_laplace_properties]].
+- 线性映射的面积放大与积分换元 / Area scaling and change of variables：[[Math_Calculus/6.Multivariable_Calculus/change_of_variables_jacobian]]。
+  Area scaling and change of variables: [[Math_Calculus/6.Multivariable_Calculus/change_of_variables_jacobian]].
 
 ## 来源 / Source
 - 来源 / Source: [[Daily Notes/2026-02-11]]  
